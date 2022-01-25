@@ -9,7 +9,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #5865f2;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -19,13 +19,14 @@ body {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
-    color: #818181;
+    color: #FFF;
     display: block;
     transition: 0.3s;
+    font-family: Trebuchet MS;
 }
   
 .sidebar a:hover {
-    color: #f1f1f1;
+    color: #FF7900;
 }
   
 .sidebar .closebtn {
@@ -60,8 +61,11 @@ body {
 #main {
     transition: margin-left .5s;
     padding: 16px;
-    position: relative;
-    top: -180%;
+    position: absolute;
+    left: 0;
+    top: -0.5em;
+    width: 1em;
+    height: 0.15em;
 }
   
 @media screen and (max-height: 450px) {
