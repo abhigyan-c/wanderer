@@ -1,0 +1,21 @@
+body{
+	background-color: #fcfcfc;	
+}
+h1{
+	font-family:  "Trebuchet MS";
+}
+div.maincolor{ 
+	color: #5865f2;
+}
+div.secondarycolor{
+	color: #FF7900;
+}
+div.internaltextcolor1{ 
+	color: #FFFFFF;
+}
+div.internaltextcolor2{
+	color: #000000;
+}
+div.contentfont{
+	font-family: Cambria;
+}
