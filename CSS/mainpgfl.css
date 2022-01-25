@@ -51,8 +51,6 @@ body {
     color: white;
     padding: 5px 15px;
     border: none;
-    position:  relative;
-    top: -60px;
 }
   
 .openbtn:hover {
@@ -62,6 +60,8 @@ body {
 #main {
     transition: margin-left .5s;
     padding: 16px;
+    position: relative;
+    top: -180%;
 }
   
 @media screen and (max-height: 450px) {
