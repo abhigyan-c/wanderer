@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gulfstr.css">
+    <link rel="stylesheet" href="wanderer.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="mainpgfl.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <img src="logo.png" class="center"> 
+            <div id="mySidebar" class="sidebar">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Places</a>
+              <a href="#">Contact Us</a>
+            </div>
+
+            <div id="main">
+              <button class="openbtn" onclick="openNav()">☰ </button>
+            </div>
+
+            <script>
+            
+            function openNav() {
+              document.getElementById("mySidebar").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
+            </script>
+        <!-- <label class="header__menu-btn" role="button" for="menu-toggle" onclick="toggleSubMenu()"> -->
+            <!-- <input type="checkbox" id="toggle">
+<label for="toggle">&#9776;</label>
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav> -->
+        <!-- </label> -->
+      </header>
+      
+</body>
+</html>
