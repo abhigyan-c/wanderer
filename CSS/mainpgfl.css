@@ -64,6 +64,50 @@ body {
     transition: margin-left .5s;
     padding: 16px;
 }
+
+.signin {
+    font-size: 35px;
+    cursor: pointer;
+    background-color: #5865f2;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    position: fixed;
+    right: 200px;
+    top: 6px;
+}
+
+.signin a {
+    font-family: Trebuchet MS;
+    color: White;
+    text-decoration: none;
+}
+
+.signin:hover {
+    background-color: #FF7900;
+}
+
+.signup {
+    font-size: 35px;
+    cursor: pointer;
+    background-color: #5865f2;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    position: fixed;
+    right: 45px;
+    top: 6px;
+}
+
+.signup a {
+    font-family: Trebuchet MS;
+    color: White;
+    text-decoration: none;
+}
+
+.signup:hover {
+    background-color: #FF7900;
+}
   
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
