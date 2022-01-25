@@ -59,6 +59,10 @@ body {
 .openbtn:hover {
     background-color: #FF7900;
 }
+
+.openbtn:focus {
+    outline: none;
+}
   
 #main {
     transition: margin-left .5s;
