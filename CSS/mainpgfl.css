@@ -77,7 +77,7 @@ body {
     top: 6px;
 }
 
-.signin a {
+a.s1 {
     font-family: Trebuchet MS;
     color: White;
     text-decoration: none;
@@ -99,7 +99,7 @@ body {
     top: 6px;
 }
 
-.signup a {
+a.s2 {
     font-family: Trebuchet MS;
     color: White;
     text-decoration: none;
