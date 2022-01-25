@@ -87,6 +87,8 @@ a:hover {
     margin-right: auto;
     width: 40%;
     margin-top: auto;
-    position: relative;
+    position: fixed;
     top: -30px;
+    left: 29%;
+
 }
