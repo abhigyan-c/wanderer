@@ -53,7 +53,7 @@ body {
     padding: 5px 15px;
     border: none;
     position:  fixed;
-    top:  0;
+    top:  6px;
 }
   
 .openbtn:hover {
