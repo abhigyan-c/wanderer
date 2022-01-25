@@ -3,7 +3,7 @@
     padding: 0;
     margin: 0 auto;
     height: 6rem;
-    background-color: rgb(3, 1, 1);
+    background-color: #5865f2;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,68 +17,76 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
     font: 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
-  }
-  input {
+}
+
+input {
     display: none;
-  }
-  label,
-  ul {
+}
+
+label, ul {
     border: 1px solid #cecfd5;
     border-radius: 6px;
-  }
-  label {
+}
+
+label {
     color: #0087cc;
     cursor: pointer;
     display: inline-block;
     font-size: 18px;
     padding: 5px 9px;
     transition: all .15s ease;
-  }
-  label:hover {
+}
+
+label:hover {
     color: #ff7b29;
-  }
-  input:checked + label {
+}
+
+input:checked + label {
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
     color: #9799a7;
-  }
-  nav {
+}
+
+nav {
     max-height: 0;
     overflow: hidden;
     transition: all .15s ease;
-  }
-  input:checked ~ nav {
+ }
+
+input:checked ~ nav {
     max-height: 500px;
-  }
-  ul {
+}
+
+ul {
     list-style: none;
     margin: 8px 0 0 0;
     width: 100px;
-  }
-  li {
+}
+
+li {
     border-bottom: 1px solid #cecfd5;
-  }
-  li:last-child {
+}
+
+li:last-child {
     border-bottom: 0;
-  }
-  a {
+}
+
+a {
     color: #0087cc;
     display: block;
     padding: 6px 12px;
     text-decoration: none;
-  }
-  a:hover {
+}
+
+a:hover {
     color: #ff7b29;
-  }
+}
 
-  /* img{
-      list-style-image: url(logo.png);
-      align: center;
-  } */
-
-  .center {
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 40%;
     margin-top: auto;
-  }
+    position: relative;
+    top: -30px;
+}
