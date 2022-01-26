@@ -2021,6 +2021,7 @@ h6 {
 /*  Start Header Area CSS
 /* =================================== */
 .canvus_menu {
+  display: flex;
   overflow: hidden;
   position: fixed;
   left: 0;

@@ -70,6 +70,7 @@ body {
 }
 
 .signin {
+    display:  flex;
     font-size: 35px;
     cursor: pointer;
     background-color: #5865f2;
@@ -92,6 +93,7 @@ a.s1 {
 }
 
 .signup {
+    display: flex;
     font-size: 35px;
     cursor: pointer;
     background-color: #5865f2;
@@ -114,6 +116,8 @@ a.s2 {
 }
 
 .sidelist {
+    display:  flex;
+    flex-direction: column;
     border: none;
     border-bottom: none;
     line-height: 3;

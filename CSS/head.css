@@ -82,7 +82,7 @@ a:hover {
 }
 
 .center {
-    
+    display: flex;
     width: 50%;
     position: absolute;
     top: 0;
