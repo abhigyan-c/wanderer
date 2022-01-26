@@ -2023,7 +2023,7 @@ h6 {
 .canvus_menu {
   overflow: hidden;
   position: fixed;
-  left: 0px;
+  left: -300px;
   top: 0px;
   z-index: 10;
   min-height: 80px;
@@ -2046,8 +2046,9 @@ h6 {
       height: 2px;
       width: 30px;
       display: block;
-      background: #222222;
+      background: #FFFFFF;
       cursor: pointer;
+      left: -300px;
       -webkit-transition: all 0.5s ease-in-out;
       -moz-transition: all 0.5s ease-in-out;
       -o-transition: all 0.5s ease-in-out;
@@ -2057,7 +2058,7 @@ h6 {
         height: 2px;
         width: 25px;
         display: block;
-        background: #222222;
+        background: #FFFFFF;
         left: 0px;
         top: 20px;
         position: absolute;
@@ -2070,24 +2071,26 @@ h6 {
         height: 2px;
         width: 20px;
         display: block;
-        background: #222222;
+        background: #FFFFFF;
         left: 0px;
         bottom: 8px;
         position: absolute;
         -webkit-transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
         -o-transition: all 0.5s ease-in-out;
-        transition: all 0.5s ease-in-out; }
+        transition: all 0.5s ease-in-out; 
+      }
 
 .side_menu {
   position: fixed;
   left: -500px;
   top: 0px;
   width: 100%;
-  background: #fff;
-  max-width: 500px;
+  background: #5865f2;
+  max-width: 350px;
   padding: 130px 115px;
   z-index: 9;
+  height: 500%;
   box-shadow: 0px 20px 50px rgba(70, 129, 255, 0.1);
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;

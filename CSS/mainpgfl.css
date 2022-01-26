@@ -112,8 +112,29 @@ a.s2 {
 .signup:hover {
     background-color: #FF7900;
 }
+
+.sidelist {
+    border: none;
+    border-bottom: none;
+    line-height: 5;
+    width: 200px;
+    align-self: center;
+}
+
+
+.sidelist a {
+    font-family: Trebuchet MS;
+    font-size: 31px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.sidelist a:hover {
+    text-decoration: none;
+    color: #FF7900;
+}
   
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
-  }
+}
