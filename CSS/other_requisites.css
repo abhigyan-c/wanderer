@@ -22,3 +22,15 @@ body {
       border-color: black;
       opacity: 100%;
   }
+
+  #button1{
+      background-color: orange;
+      color: #5865f2;
+      font-weight: 500;
+  }
+
+  #button1:hover {
+    background-color: #5865f2; 
+    color: orange;
+    font-weight: 800;
+  }
