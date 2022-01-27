@@ -1,0 +1,25 @@
+body {
+    background-color: #fcfcfc;
+    color: #FF7900;
+  }
+  
+  a {
+    color: white;
+    font-weight: 600;
+  }
+
+  a:hover {
+    color: #FF7900;
+    background-color: black;
+  }
+
+  #header{
+      position: fixed;
+      width: 100%;
+      background-color: #5865f2;
+  }
+
+  #toggle1{
+      border-color: black;
+      opacity: 100%;
+  }
