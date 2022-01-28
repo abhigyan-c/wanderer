@@ -904,9 +904,9 @@ th {
     background: #298cdf; }
 
 .warning {
-  background: #f4e700; }
+  background: #FF7900; }
   .warning:before {
-    background: #e1d608; }
+    background: #FF7900; }
 
 .danger {
   background: #f54940; }
