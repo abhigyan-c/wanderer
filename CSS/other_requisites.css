@@ -13,6 +13,15 @@
     background-color: black;
   }
 
+#imganc{
+  color: white;
+}
+
+#imganc:hover {
+  color: #FF7900;
+  background-color: #5865f2;
+}
+
   #header{
       width: 100%;
       background-color: #5865f2;
