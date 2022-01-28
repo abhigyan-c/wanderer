@@ -50,6 +50,13 @@
     animation-fill-mode: forwards;
     pointer-events: none;
 }
+
+.sec2 {
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
@@ -104,4 +111,30 @@ div.desc {
   content: "";
   display: table;
   clear: both;
+}
+
+.vidcont {
+  position: relative;
+}
+
+.vidcont video {
+  position: relative;
+  z-index = 0;
+}
+
+.overlay {
+    position:absolute;
+    top:30%;
+    left: 20%;
+    z-index:1;
+}
+
+.vidtext {
+  color: lightcyan;
+  font-size: 800%;
+  align-self: center;
+}
+
+#logostyle {
+     border-radius: 25% 15% 20% 15%;
 }

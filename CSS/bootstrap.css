@@ -4202,7 +4202,7 @@ input[type=submit].btn-block {
     margin-right: 1rem;
     font-size: 1.25rem;
     line-height: inherit;
-    white-space: nowrap
+    white-space: nowrap;
 }
 
 .navbar-brand:focus,
