@@ -133,6 +133,7 @@ div.desc {
   color: lightcyan;
   font-size: 7vw;
   align-self: center;
+  pointer-events: none;
 }
 
 #logostyle {
@@ -160,4 +161,8 @@ div.desc {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #FF7900;
+}
+
+.customCursor{
+  cursor: url(../Images/cursor.png), auto;
 }

@@ -364,7 +364,7 @@ output {
 
 summary {
     display: list-item;
-    cursor: pointer
+    cursor: url(../Images/pointer.png), auto;
 }
 
 template {
@@ -2454,7 +2454,7 @@ textarea.form-control {
 }
 
 .btn:not(:disabled):not(.disabled) {
-    cursor: pointer
+    cursor: url(../Images/pointer.png), auto;
 }
 
 a.btn.disabled,
@@ -3981,7 +3981,7 @@ input[type=submit].btn-block {
     width: 100%;
     height: .5rem;
     color: transparent;
-    cursor: pointer;
+    cursor: url(../Images/pointer.png), auto;
     background-color: #dee2e6;
     border-color: transparent;
     border-radius: 1rem
@@ -4012,7 +4012,7 @@ input[type=submit].btn-block {
     width: 100%;
     height: .5rem;
     color: transparent;
-    cursor: pointer;
+    cursor: url(../Images/pointer.png), auto;
     background-color: #dee2e6;
     border-color: transparent;
     border-radius: 1rem
@@ -4045,7 +4045,7 @@ input[type=submit].btn-block {
     width: 100%;
     height: .5rem;
     color: transparent;
-    cursor: pointer;
+    cursor: url(../Images/pointer.png), auto;
     background-color: transparent;
     border-color: transparent;
     border-width: .5rem
@@ -4093,7 +4093,8 @@ input[type=submit].btn-block {
 
 .nav-link:focus,
 .nav-link:hover {
-    text-decoration: none
+    text-decoration: none;
+    cursor: url(../Images/pointer.png), auto;
 }
 
 .nav-link.disabled {
@@ -4207,7 +4208,8 @@ input[type=submit].btn-block {
 
 .navbar-brand:focus,
 .navbar-brand:hover {
-    text-decoration: none
+    text-decoration: none;
+    cursor: url(../Images/pointer.png), auto;
 }
 
 .navbar-nav {
@@ -4260,7 +4262,7 @@ input[type=submit].btn-block {
 }
 
 .navbar-toggler:not(:disabled):not(.disabled) {
-    cursor: pointer
+    cursor: url(../Images/pointer.png), auto
 }
 
 .navbar-toggler-icon {
@@ -4920,7 +4922,7 @@ input[type=submit].btn-block {
 }
 
 .page-link:not(:disabled):not(.disabled) {
-    cursor: pointer
+    cursor: url(../Images/pointer.png), auto
 }
 
 .page-item:first-child .page-link {
@@ -5560,7 +5562,7 @@ input[type=submit].btn-block {
 }
 
 .close:not(:disabled):not(.disabled) {
-    cursor: pointer
+    cursor: url(../Images/pointer.png), auto;
 }
 
 .close:not(:disabled):not(.disabled):focus,
@@ -6274,7 +6276,7 @@ button.close {
     margin-right: 3px;
     margin-left: 3px;
     text-indent: -999px;
-    cursor: pointer;
+    cursor: url(../Images/pointer.png), auto;
     background-color: rgba(255, 255, 255, .5)
 }
 
