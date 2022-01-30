@@ -11,6 +11,18 @@
   a:hover {
     color: #FF7900;
     background-color: black;
+    border-radius: 20%;
+  }
+
+#a2 {
+    color: white;
+    font-weight: 600;
+  }
+
+  #a2:hover {
+    color: #FF7900;
+    background-color: black;
+    border-radius: 20%;
   }
 
 #imganc{
