@@ -183,3 +183,11 @@ div.desc {
 .customCursor{
   cursor: url(../Images/cursor.png), auto;
 }
+
+#f1{
+  background-color: lightcyan;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+};
