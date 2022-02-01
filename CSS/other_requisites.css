@@ -185,7 +185,8 @@ div.desc {
 }
 
 #f1{
-  background-color: lightcyan;
+  background-color: lightgreen;
+  font-weight: 500;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
