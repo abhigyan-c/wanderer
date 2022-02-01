@@ -191,4 +191,16 @@ div.desc {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-};
+}
+.about{
+  font-size: 4vw;
+  font-family: Cambria;
+  font-weight: 400;
+  color: black;
+}
+
+#transparentbox{
+        background-color: rgb(255, 255, 255);
+        opacity: 0.5;
+        padding: 5%;
+}
