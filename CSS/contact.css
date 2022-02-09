@@ -37,6 +37,7 @@ body{
 .contactustext {
   color: white;
   font-size: 3.5vw;
+  font-family: 'Montserrat';
   align-self: left;
   pointer-events: none;
 }
