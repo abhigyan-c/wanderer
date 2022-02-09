@@ -1,0 +1,19 @@
+.transparentbox{
+    background-color: rgb(250, 221, 90);
+    opacity: 0.95;
+    padding: 1%;
+    }
+
+#head5{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+}
+
+body{
+    background-color: cyan;
+}
+
+#head3{
+    font-family:cursive;
+    font-weight: bold;
+}
