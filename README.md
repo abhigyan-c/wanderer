@@ -9,7 +9,7 @@ This website is of great help to people who are interested in traveling to remot
 We welcome all kinds of ideas which will help to develop this website into a more useful one.
 <br>
 1. Clone this repository
-2. Make the required chnages
+2. Make the required changes
 3. Create your own branch
 4. Commit the changes in that branch
 5. Open a pull request
