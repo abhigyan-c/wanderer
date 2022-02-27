@@ -9,7 +9,7 @@
 ul#footer1{
     position: relative;
     display: flex;
-    gap: 50px;
+    gap: 20px;
 }
 
 ul#footer1 li{
