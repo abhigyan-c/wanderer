@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="icon" href="../Images/Final_Icon.png">
-    <link rel="stylesheet" href="../CSS/about.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Welcome to Bootstrap.">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="../CSS/wanderer.css">
+        <link rel="stylesheet" href="../CSS/other_requisites.css">
+		<link rel="stylesheet" href="../CSS/about.css">
+        <link rel="icon" href="../Images/Final_Icon.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="../CSS/trial_icons.css">
-    <style>
+		<style>
         .mystyle{
             color: black;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -38,50 +45,53 @@
         padding: 3% 1% 1% 1%;
         }
     </style>
-</head>
-<body class = "customCursor">
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="header" id="header" >
-    <a class="navbar-brand" href="#" id="imganc"><img id = "logostyle" src="../Images/Final_Logo.png" height="100" width="100"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="toggle1">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+        <title>About</title>
+    </head>
+    
+    <body class = "customCursor">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="header" >
+            <a class="navbar-brand" href="#" id="imganc"><img id = "logostyle" src="../Images/Final_Logo.png" height="100" width="100"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="toggle1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../HTML/index.html" id="a2">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="a2">About</a>
+                    </li>
+    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="a2">
+                            Packages
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Rajasthan</a>
+                        <a class="dropdown-item" href="#">Ladakh</a>
+                        <a class="dropdown-item" href="#">Coorg</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="../OtherHTML/card.html">See all Packages</a>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="../HTML/index.html" id="a2">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../OtherHTML/about.html" id="a2">About<span class="sr-only">(current)</span></a>
-            </li>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../OtherHTML/contactus.html" id="a2">Contact Us</a>
+                    </li>
+    
+    
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="button1" onclick="window.location.href = '../OtherHTML/login.html';">Log In</button>
+                </form>
+            </div>
 
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="a2">
-                    Packages
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Rajasthan</a>
-                    <a class="dropdown-item" href="#">Ladakh</a>
-                    <a class="dropdown-item" href="#">Coorg</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="../OtherHTML/card.html">See all Packages</a>
-
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="../OtherHTML/contactus.html" id="a2">Contact Us</a>
-            </li>
-
-
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="button1" onclick="window.location.href = '../OtherHTML/login.html';">Log In</button>
-        </form>
-    </div>
-
-</nav>
-      <br><br>
+        </nav>
+		
+		 <br><br>
       <div class="mystyle">
           <div class="transparentbox">
             <p>
@@ -110,13 +120,41 @@
             </p>
           </div>
       </div>
-<button onclick="topFunction()" id="myBtn" title="Go to top" style="position: fixed; bottom: 20px; right: 30px; color: #FF7900; background-color: #5865f2; border-radius: 100%; opacity: 80%;">
-     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
-  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
-</svg>
-    </button>
-
-            <footer class="footer-area section_gap" style="padding: 3% 1% 1% 1%;" id="f1">
+	  <br><br><br>
+	  <h1>FREQUENTLY ASKED QUESTIONS (FAQ's) : </h1><br>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Question 1
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><div class="transparentbox">Placeholder for answer 1</div></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Question 2
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><div class="transparentbox">Placeholder for answer 2</div></div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Question 3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"><div class="transparentbox">Placeholder for answer 3</div></div>
+          </div>
+        </div>
+      </div>
+		            <footer class="footer-area section_gap" style="padding: 3% 1% 1% 1%;" id="f1">
             <div class="container">
               <div class="row footer-top">
                 <!-- <div class="col-xl-5  col-sm-6 col-sm-6" style="border: 1px solid red;"> -->
@@ -145,8 +183,7 @@
                   </div>
                 </div>
                 <div class="col-xs-6 col-md-4" style="text-align: center;">
-              
-                <h3 class="head1">Follow Us On :</h3><br>
+                <h3 class="head1" style="text-align: center;">Follow Us On :</h3>
                 <ul id="footer1">
                   <li style="--clr:#5865f2;">
                       <a href="#"><i class="fa-brands fa-discord"></i></a>
@@ -181,9 +218,8 @@
             </div>
           </footer>
     <script src="../js/totop.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
@@ -194,4 +230,5 @@
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
 </body>
+
 </html>
