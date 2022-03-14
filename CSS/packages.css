@@ -7,12 +7,22 @@
     overflow: hidden;
     border-radius: 15px;
 }
-h3{
+
+#head1{
     font-family: Rubik;
     margin-top: 30px;
     font-size: 40px;
     font-weight: 500;
 }
+
+#head2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
 .img1 img{
     height: 200px;
     border-top-left-radius: 15px;
