@@ -168,12 +168,12 @@
                     <h4>Navigation Links</h4>
                     <div class="row">
                       <ul class="col footer-nav">
-                        <a href="#">Home</a><br>
-                        <a href="#">Services</a><br>
-                        <a href="#">Project</a><br>
-                        <a href="#">Team Members</a><br>
-                        <a href="#">Our Partners</a><br>
-                        <a href="#">Contact</a><br><br>
+                        <a id="anc1" onclick="openPopup()">Home</a><br>
+                        <a id="anc1" onclick="openPopup()">Services</a><br>
+                        <a id="anc1" onclick="openPopup()">Project</a><br>
+                        <a id="anc1" onclick="openPopup()">Team Members</a><br>
+                        <a id="anc1" onclick="openPopup()">Our Partners</a><br>
+                        <a id="anc1" onclick="openPopup()">Contact</a><br><br>
                       </ul>
                     </div>
                   </div>
@@ -207,7 +207,15 @@
                 <div class="row justify-content-between">
                   <div class="col-lg-120">
                     <div>
-                      <p >© 2020-2021 Wanderer Pvt. Ltd. &nbsp&nbsp<a href="#">Privacy</a> · <a href="#">Terms</a></p>
+                      <!-- <p >© 2020-2021 Wanderer Pvt. Ltd. &nbsp&nbsp<a href="#">Privacy</a> · <a href="#">Terms</a></p> -->
+                      <p >© 2020-2021 Wanderer Pvt. Ltd. &nbsp&nbsp<button type="submit" id="btn1" onclick="openPopup()">Privacy</button> · <button type="submit" id="btn1" onclick="openPopup()">Terms</button></p>   
+                      <div class="popup" id="popup">
+                        <h2>Rules and Regulations</h2>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially.
+                        </p>
+                        <button type="button" onclick="closePopup()">OK</button>
+                      </div>
                     </div>
                   </div>
                 </div>
