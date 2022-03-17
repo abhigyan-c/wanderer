@@ -15,6 +15,13 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    .carousel-indicators li {
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+    }
+  </style>
 </head>
 
 <body class="customCursor" style="padding-top: 130px;">
@@ -61,28 +68,56 @@
     </div>
 
   </nav>
-  <div style="padding: 10px 5% 20px 5%;">
-    <img src="../Images/ladakhbg.jpg" width="100%" alt="">
-  </div>
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol id="myCarousel-indicators" class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../Images/ladakhbg.jpg" class="d-block w-100" height="422" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="../Images/Ladakh.jpg" class="d-block w-100" height="422" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="../Images/ladakhbg.jpg" class="d-block w-100" alt="..." height="422">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div><br><br>
 
   <div class="container">
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#description" role="tab" aria-controls="pills-home" aria-selected="true"><b>HISTORY</b></a>
+        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#description" role="tab"
+          aria-controls="pills-home" aria-selected="true"><b>HISTORY</b></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#highlight" role="tab" aria-controls="pills-profile" aria-selected="false"><b>SIGHTSEEING</b></a>
+        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#highlight" role="tab"
+          aria-controls="pills-profile" aria-selected="false"><b>SIGHTSEEING</b></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#hotels" role="tab" aria-controls="pills-contact" aria-selected="false"><b>HOTELS</b></a>
+        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#hotels" role="tab"
+          aria-controls="pills-contact" aria-selected="false"><b>HOTELS</b></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#how-to-reach" role="tab" aria-controls="pills-end" aria-selected="false"><b>HOW TO REACH</b></a>
+        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#how-to-reach" role="tab"
+          aria-controls="pills-end" aria-selected="false"><b>HOW TO REACH</b></a>
       </li>
     </ul>
     <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="pills-home-tab">            
-        <br><h3>About Ladakh</h3><br>
+      <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="pills-home-tab">
+        <br>
+        <h3>About Ladakh</h3><br>
         <p>Various names have been given to Leh (Ladakh) in the past. Some called it Maryul, or low land, while others
           called it Kha- chumpa. It was called Kia-Chha by Fa-Hein and Ma-Lo-Pho by Hiuen Tsang. The Brokpas from
           Dadarstan, who inhabited the lower regions of the Indus Valley, colloquially known as Sham, are claimed to
@@ -99,38 +134,46 @@
         </p>
       </div>
       <div class="tab-pane fade" id="highlight" role="tabpanel" aria-labelledby="pills-profile-tab">
-        <br><h3>Places to visit:-</h3><br>
+        <br>
+        <h3>Places to visit:-</h3><br>
         <ul style="list-style-type: circle;">
-            <li>Sculpture at Drass.</li>
-            <li>Rock Cut Sculpture at Mulbekh.</li>
-            <li>Phyang Monastery</li>
-            <li>Hemis Monastery</li>
-            <li>Leh Palace</li>
-            <li>Old Castle Tsemo Hill</li>
-            <li>Stupa at T-Suru</li>
+          <li>Sculpture at Drass.</li>
+          <li>Rock Cut Sculpture at Mulbekh.</li>
+          <li>Phyang Monastery</li>
+          <li>Hemis Monastery</li>
+          <li>Leh Palace</li>
+          <li>Old Castle Tsemo Hill</li>
+          <li>Stupa at T-Suru</li>
         </ul>
         <p>And many more...</p>
       </div>
-      <div class="tab-pane fade" id="hotels" role="tabpanel" aria-labelledby="pills-contact-tab">                      
+      <div class="tab-pane fade" id="hotels" role="tabpanel" aria-labelledby="pills-contact-tab">
         <ul style="list-style-type: disc;">
-        <li>NOVOTEL</li>
-        <li>SWISSOTEL</li>
-      </ul>
+          <li>NOVOTEL</li>
+          <li>SWISSOTEL</li>
+        </ul>
       </div>
       <div class="tab-pane fade" id="how-to-reach" role="tabpanel" aria-labelledby="pills-end-tab"><br>
         <ul>
-            <li>
-                <b>By Air: </b>Mangaluru International Airport is the closest airport to Coorg located at a distance of 135 kilometers. However, its international flights operate only in the Middle East. The Kempegowda International Airport (Bengaluru) is the most well connected international airport, which is located at a distance of 260 kilometers from Coorg.
-            </li>
-            <br>
-            <li>
-                <b>By Rail: </b>The railway station located at Mysore, at a distance of approximately 95 kilometers is the nearest to Coorg. However, the distance between Mysore and Coorg is a little over 100 kms which you can cover with a 2 ½ to 3 hour drive.
-            </li>
-            <br>
-            <li>
-                <b>By Road: </b>There are frequent buses by the Karnataka State Road Transport Corporation (KSRTC) that ply in frequent intervals that you can avail of to reach your destination.
-            </li>
-        </
+          <li>
+            <b>By Air: </b>Mangaluru International Airport is the closest airport to Coorg located at a distance of 135
+            kilometers. However, its international flights operate only in the Middle East. The Kempegowda International
+            Airport (Bengaluru) is the most well connected international airport, which is located at a distance of 260
+            kilometers from Coorg.
+          </li>
+          <br>
+          <li>
+            <b>By Rail: </b>The railway station located at Mysore, at a distance of approximately 95 kilometers is the
+            nearest to Coorg. However, the distance between Mysore and Coorg is a little over 100 kms which you can
+            cover with a 2 ½ to 3 hour drive.
+          </li>
+          <br>
+          <li>
+            <b>By Road: </b>There are frequent buses by the Karnataka State Road Transport Corporation (KSRTC) that ply
+            in frequent intervals that you can avail of to reach your destination.
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
   <button onclick="topFunction()" id="myBtn" title="Go to top"
@@ -173,8 +216,8 @@
           </div>
         </div>
         <div class="col-xs-6 col-md-4" style="text-align: center;">
-
-          <h3 class="head1">Follow Us On :</h3><br>
+          <!-- <div class="col-lg-4  col-md-100 col-sm-6" style="border: 1px solid red;"> -->
+          <h3 class="head1" style="text-align: center;">Follow Us On :</h3>
           <ul id="footer1">
             <li style="--clr:#5865f2;">
               <a href="#"><i class="fa-brands fa-discord"></i></a>
@@ -208,14 +251,14 @@
         </div>
       </div>
   </footer>
-    <script src="../js/totop.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  <script src="../js/totop.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
     crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
 </body>
