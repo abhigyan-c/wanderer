@@ -14,6 +14,8 @@
         <link rel="icon" href="../Images/Final_Icon.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="../CSS/trial_icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <title>packages</title>
 
 </head>
@@ -259,10 +261,10 @@
         </div>
     </section>
     <section>
-      <div class="inbox">
+    	<div class="inbox">
         <div class="container">
-          <div class="row">
-            <div class="col-md-4">
+          <div class="row slider">
+            <div class="col-md-12">
               <div class="card">
                 <div class="img1"><img src="../Images/Ladakh.jpg"></div>
                 <div class="img2"><img src="../Images/Final_Icon.png"></div>
@@ -284,7 +286,7 @@
                </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
               <div class="card">
                 <div class="img1"><img src="../Images/pelling.jpg"></div>
                 <div class="img2"><img src="../Images/Final_Icon.png"></div>
@@ -299,7 +301,7 @@
                </div>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-12">
               <div class="card">
                 <div class="img1"><img src="../Images/NK.jpeg"></div>
                 <div class="img2"><img src="../Images/Final_Icon.png"></div>
@@ -314,9 +316,55 @@
                </div>
               </div>
             </div>
+             <div class="col-md-12">
+              <div class="card">
+                <div class="img1"><img src="../Images/NK.jpeg"></div>
+                <div class="img2"><img src="../Images/Final_Icon.png"></div>
+                <div class="main-text">
+                  <h2>Bhaisongarh Fort</h2>
+                  <br>
+                  <p class="card-text">10 nights Bhaisongarh Fort<br><br>
+                    Via Plane-Airport Kota Airport 54.5km from Kota Airport, approx. 92min by car.<br>
+                    Via train- Kota Railway Station,60.75km from Kota Railway Station, approx. 106min by car.
+                  </p>
+                 <button type="button" class="btn btn-success">READ MORE...</button>
+               </div>
+              </div>
+            </div>
+             <div class="col-md-12">
+              <div class="card">
+                <div class="img1"><img src="../Images/NK.jpeg"></div>
+                <div class="img2"><img src="../Images/Final_Icon.png"></div>
+                <div class="main-text">
+                  <h2>Bhaisongarh Fort</h2>
+                  <br>
+                  <p class="card-text">10 nights Bhaisongarh Fort<br><br>
+                    Via Plane-Airport Kota Airport 54.5km from Kota Airport, approx. 92min by car.<br>
+                    Via train- Kota Railway Station,60.75km from Kota Railway Station, approx. 106min by car.
+                  </p>
+                 <button type="button" class="btn btn-success">READ MORE...</button>
+               </div>
+              </div>
+            </div>
+             <div class="col-md-12">
+              <div class="card">
+                <div class="img1"><img src="../Images/NK.jpeg"></div>
+                <div class="img2"><img src="../Images/Final_Icon.png"></div>
+                <div class="main-text">
+                  <h2>Bhaisongarh Fort</h2>
+                  <br>
+                  <p class="card-text">10 nights Bhaisongarh Fort<br><br>
+                    Via Plane-Airport Kota Airport 54.5km from Kota Airport, approx. 92min by car.<br>
+                    Via train- Kota Railway Station,60.75km from Kota Railway Station, approx. 106min by car.
+                  </p>
+                 <button type="button" class="btn btn-success">READ MORE...</button>
+               </div>
+              </div>
+            </div>
+           </div>
           </div>
         </div>
-      </div>
+
     </section>
     <section>
     <div class="container">
@@ -433,5 +481,45 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript">
+	$('.slider').slick({
+  dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: false,
+        arrows: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
 </body>
 </html>
