@@ -1,153 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="Welcome to Bootstrap.">
-        
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="../CSS/contact.css">
-        <link rel="stylesheet" href="../CSS/other_requisites.css">
-        <link rel="icon" href="../Images/Final_Icon.png">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="../CSS/trial_icons.css">
-        <title>Wanderer</title>
-	    <style>
-		    .modal-content {
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WANDERER || COORG</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="icon" href="../Images/Final_Icon.png">
+  <link rel="stylesheet" href="../CSS/coorg.css">
+  <link rel="stylesheet" href="../CSS/other_requisites.css">
+  <link rel="stylesheet" href="../CSS/trial_icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+   <style>
+    .carousel-indicators li {
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+    }
+     
+     .modal-content {
       background-image: url(../Images/footerbg.png);
     }
-	    </style>
-    </head>
-    
-    <body class = "customCursor">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="header" id="header" >
-            <a class="navbar-brand" href="#" id="imganc"><img id = "logostyle" src="../Images/Final_Logo.png" height="100" width="100"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="toggle1">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../HTML/index.html" id="a2">Home </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../OtherHTML/about.html" id="a2">About</a>
-                    </li>
-    
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="a2">
-                            Packages
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-			    <a class="dropdown-item" href="#">Rajasthan</a>
-			    <a class="dropdown-item" href="ladakh.html">Ladakh</a>
-			    <a class="dropdown-item" href="coorg.html">Coorg</a>
-			    <div class="dropdown-divider"></div>
-			    <a class="dropdown-item" href="../OtherHTML/package.html">See all Packages</a>
+  </style>
+</head>
 
-                	</div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" id="a2">Contact Us<span class="sr-only">(current)</span></a>
-                    </li>
-    
-    
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="button1" onclick="window.location.href = '../OtherHTML/login.html';">Log In</button>
-                </form>
-            </div>
+<body class="customCursor" style="padding-top: 130px;">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="header">
+    <a class="navbar-brand" href="#" id="imganc"><img id="logostyle" src="../Images/Final_Logo.png" height="100"
+        width="100"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="toggle1">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../HTML/index.html" id="a2">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../OtherHTML/about.html" id="a2">About</a>
+        </li>
 
-        </nav>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false" id="a2">
+            Packages
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Rajasthan</a>
+            <a class="dropdown-item" href="ladakh.html">Ladakh</a>
+            <a class="dropdown-item" href="coorg.html">Coorg</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../OtherHTML/package.html">See all Packages</a>
 
-         <br><br><br><br>
-  <div class="contactusimg">
-    <img src="../Images/pelling.jpg" height="100%" width="100%">
-    <div class="contactusoverlay" style="padding-top: 10%;">
-      <h2 class="contactusheading">Contact Us</h2>
-      <p class="contactustext">
-        At Wanderers, our constant focus is to deliver the best support we can provide to the community, so that
-        customers can easily find the best experience.To avail a best in class customer support, please reach us by
-        filling up the form, so that we can reach you as soon as possible.
-      </p>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../OtherHTML/contactus.html" id="a2">Contact Us</a>
+        </li>
+
+
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="button1"
+          onclick="window.location.href = '../OtherHTML/login.html';">Log In</button>
+      </form>
     </div>
-  </div>
-  <section class="body-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6"  style="font-family:Monotype corsiva;">
-          <div class="container my-4">
-            <div>
-              <h2 class="text-center">Lets talk about everything!</h2>
-              <center><img class="my-4 mx-auto py-2" src="../Images/Final_Logo.png"
-                  style="border-radius: 40%; height:30%; width:30%;"></center>
-              <h2 class="text-center">Feel free to ask us anything!</h2>
-              <h3 class="text-justify"> Have any doubt or suggestion? Feel free to ask
-                anything. If you have any queries regarding your trip or visa or any other stuff, do let us know. If you
-                have any doubts regarding your stay, or you want to know about the place a little more, surely contact
-                us through this form. Any bugs or problems you encounter in our website has to be fixed, so do let us
-                know. Your suggestions/queries are highly appreciated.
-              </h3>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
 
-          <div class="container my-4">
-            <div class="transparentbox" id="head5">
-              <form method="post" name="form1" onsubmit="myFunction(event)">
-                <div class="form-group">
-                  <label for="exampleFormControlInput1">Name</label>
-                  <input type="text" class="form-control" id="req1" placeholder="type your name here" required>
-                </div>
-                <div class="form-group">
-                  <label for="exampleFormControlInput1">Email address</label>
-                  <input type="email" class="form-control" id="req1" placeholder="name@abc.com" required>
-                </div><br>
-
-
-                <h5>Why?</h5><br>
-                <div class="form-group">
-                  <label for="exampleFormControlSelect1">Select your Query</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option>Travel Query</option>
-                    <option>Visa Query</option>
-                    <option>Travel/Package Details</option>
-                    <option>Website Issues</option>
-                    <option>Others</option>
-                  </select>
-                </div>
-
-
-                <div class="form-group">
-                  <label for="exampleFormControlTextarea2">Elaborate Your Concern</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea2" rows="3" required></textarea>
-                </div>
-                <button class="btn btn-primary"
-                  onclick="notEmpty(document.getElementById('req1'), 'Please Enter a any value or name')"
-                  value='Check Field'>Submit</button>
-              </form>
-            </div>
-          </div>
-        </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+    <ol id="myCarousel-indicators" class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../Images/ladakhbg.jpg" class="d-block w-100" height="422" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="../Images/Ladakh.jpg" class="d-block w-100" height="422" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="10000">
+        <img src="../Images/ladakhbg.jpg" class="d-block w-100" alt="..." height="422">
       </div>
     </div>
-  </section>
-        <button onclick="topFunction()" id="myBtn" title="Go to top" style="position: fixed; bottom: 20px; right: 30px; color: #FF7900; background-color: #5865f2; border-radius: 100%; opacity: 80%;">
-     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
-  <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
-</svg>
-    </button>
-            
-            
-            
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div><br><br>
+
+  <div class="container">
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#description" role="tab" aria-controls="pills-home" aria-selected="true"><b>HISTORY</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#highlight" role="tab" aria-controls="pills-profile" aria-selected="false"><b>SIGHTSEEING</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#hotels" role="tab" aria-controls="pills-contact" aria-selected="false"><b>HOTELS</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#how-to-reach" role="tab" aria-controls="pills-end" aria-selected="false"><b>HOW TO REACH</b></a>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="pills-home-tab">            
+        <br><h3>About Coorg</h3><br>
+        <p>
+            Wake up to the aroma of soothing coffee and take in the picturesque grandeur of this misty land of hills and streams. Coorg, often known as the Scotland of India, lives true to its reputation with an enticing blend of history, elegance, adventure, and delectable cuisine. This well-known coffee-producing hill station, located along the western ghats, is well-known for its jaw-dropping beautiful scenery and wealth.
+        </p>
+        <p>
+            This misty landscape has a rich culture and a unique indigenous clan - Kodavas who specialise in martial arts and are well-known for their hospitality. From admiring the beauty of this magnificent destination to a tough hike or a deep insight into the culture at the Madikeri Fort to the thrilling experience at Abbey falls. Coorg will make you oscillate to the extremes in everything, from heart-melting handmade truffles to sweet heart-melting handmade truffles.
+        </p>
+        <p>
+            With so many activities available in the house, this is a great place for everyone, whether you are a foodie, an explorer, an adventurer, or a seeker of tranquillity. Not to mention the well-known festivals of Keil Poldu (worship of weapons), Cauvery Shankaramana (return of the river goddess), and Huttari (harvest).
+        </p>
+        <p>
+            With stunning mountains, a cascade of tumbling streams, and a feast for the eyes of flora and wildlife, this place is a must-see for everyone looking for a break from their boring 9-5 stressful existence. Coorg is well-known for being the favoured place for hiking and white water rafting, making it an ideal location for thrill-seekers.
+        </p>
+        <p>
+            In the winter afternoons, drive around the misty roads around the hills to quench your appetite for adventure. Though the touch of excitement is enough to pique your interest, remember to take precautions while on your adventurous journey to Coorg.
+        </p>
+      </div>
+      <div class="tab-pane fade" id="highlight" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <br><h3>Places to visit:-</h3><br>
+        <ul style="list-style-type: circle;">
+            <li>
+                <b>Abbey Falls: </b>Cascading from an elevation of around 70 feet above sea level and nestled amidst lush spice and coffee plantations, the magnificent Abbey Falls is one of the most beautiful and popular waterfalls in Coorg. This fall is fed by the Kaveri river, which cascades through rocky faces, with the flow being at its peak just after the monsoon season.
+            </li>
+            <br>
+            <li>
+                <b>Honnamana Kere Lake: </b>Lying near Somwarpet, Honnamana Kere Lake is considered to be the biggest natural lake of Kodagu district. With a temple of Goddess Honnamana located on its serene banks, Honnamana Kere Lake is known popularly for its spiritual and mythological significance.
+            </li>
+            <br>
+            <li>
+                <b>Raja's Seat: </b>Also known as Gaddige Raja’s Tomb, Raja's Seat was developed by Chikkavirarajendra back in 1820. In the bygone times, the Raja’s Seat was a favourite place among the rulers of Kodagu district, who frequently visited this spot with their queens to enjoy the sunsetSurrounded by majestic hills and lush valleys, this vantage point remains as a sunset-watching spot at the present day. The place is also encircled by a breathtaking garden, which houses musical fountains and colourful seasonal flowers.
+            </li>
+        </ul>
+        <p>And many more...</p>
+      </div>
+      <div class="tab-pane fade" id="hotels" role="tabpanel" aria-labelledby="pills-contact-tab">                      <ul style="list-style-type: disc;">
+        <li>NOVOTEL</li>
+        <li>SWISSOTEL</li>
+      </ul>
+      </div>
+      <div class="tab-pane fade" id="how-to-reach" role="tabpanel" aria-labelledby="pills-end-tab"><br>
+          <ul>
+              <li>
+                  <b>By Air: </b>Mangaluru International Airport is the closest airport to Coorg located at a distance of 135 kilometers. However, its international flights operate only in the Middle East. The Kempegowda International Airport (Bengaluru) is the most well connected international airport, which is located at a distance of 260 kilometers from Coorg.
+              </li>
+              <br>
+              <li>
+                  <b>By Rail: </b>The railway station located at Mysore, at a distance of approximately 95 kilometers is the nearest to Coorg. However, the distance between Mysore and Coorg is a little over 100 kms which you can cover with a 2 ½ to 3 hour drive.
+              </li>
+              <br>
+              <li>
+                  <b>By Road: </b>There are frequent buses by the Karnataka State Road Transport Corporation (KSRTC) that ply in frequent intervals that you can avail of to reach your destination.
+              </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"
+    style="position: fixed; bottom: 20px; right: 30px; color: #FF7900; background-color: #5865f2; border-radius: 100%; opacity: 80%;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+      class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+      <path
+        d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
+    </svg>
+  </button>
+  <hr>
   <footer class="footer-area section_gap" style="padding: 3% 1% 1% 1%;" id="f1">
     <section>
       <div class="modal fade" id="privacyModal" tabindex="-1" role="dialog" aria-labelledby="privacyModalLabel"
@@ -535,17 +569,16 @@
         </div>
       </div>
   </footer>
-          <script src="../js/totop.js"></script>
-          <script src="../js/contact.js"></script>
-          <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-          integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-          crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-          crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-          integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-          crossorigin="anonymous"></script>
-      </body>
-      
-      </html>
+    <script src="../js/totop.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

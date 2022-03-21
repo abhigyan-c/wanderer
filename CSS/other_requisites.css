@@ -1,18 +1,9 @@
-/* body {
-    background-color: #fcfcfc;
-    color: #FF7900;
-  } */
-  
-/*   a {
-    color: white;
-    font-weight: 600;
-  }
 
-  a:hover {
-    color: #FF7900;
-    background-color: black;
-    border-radius: 20%;
-  } */
+@media screen and (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
 
 #a2 {
     color: white;
@@ -24,6 +15,16 @@
     background-color: black;
     border-radius: 10%;
   }
+
+.pkg_head{
+  font-family: Monaco;
+  font-weight: bold;
+  font-size: 20px !important;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3px;
+  color: orange !important;
+}
 
 #imganc{
   color: white;
@@ -98,7 +99,7 @@ div.gallery img {
 
 div.desc {
   padding: 15px;
-  text-align: center;
+  text-align: justify;
 }
 
 * {

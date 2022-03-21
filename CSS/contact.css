@@ -5,12 +5,12 @@
     }
 
 #head5{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Montserrat;
     font-weight: 900;
 }
 
 body{
-    background-color: cyan;
+    background-color: #21252917;
 }
 
 #head3{
@@ -32,6 +32,9 @@ body{
     top: 0;
     left: 0;
     z-index:1;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: justify;
 }
 
 .contactustext {
