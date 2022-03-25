@@ -23,6 +23,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
     integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../CSS/animate.css">
   <title>WANDERER || ALL PACKAGES</title>
   <style>
     .modal-content {
@@ -111,7 +112,7 @@
     </a>
   </div><br><br>
   <section>
-    <div class="row justify-content-center" style="width:100%">
+    <div class="row justify-content-center wow slideInRight" style="width:100%">
       <div class="col-lg-6">
         <div class="section_title text-center mb_70">
           <h3 id="head1">Uncharted Destinations</h3>
@@ -124,7 +125,7 @@
     <div class="inbox">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 wow slideInLeft">
             <div class="card">
               <div class="img1"><img src="../Images/Ladakh.jpg"></div>
               <div class="img2"><img src="../Images/Final_Icon.png"></div>
@@ -146,7 +147,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 wow fadeInDown">
             <div class="card">
               <div class="img1"><img src="../Images/pelling.jpg"></div>
               <div class="img2"><img src="../Images/Final_Icon.png"></div>
@@ -168,7 +169,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 wow slideInRight">
             <div class="card">
               <div class="img1"><img src="../Images/NK.jpeg"></div>
               <div class="img2"><img src="../Images/Final_Icon.png"></div>
@@ -190,7 +191,7 @@
     <div class="inbox">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-md-4 slideInRight">
             <div class="card">
               <div class="img1"><img src="../Images/Ladakh.jpg"></div>
               <div class="img2"><img src="../Images/Final_Icon.png"></div>
@@ -212,7 +213,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 wow fadeInDown">
             <div class="card">
               <div class="img1"><img src="../Images/pelling.jpg"></div>
               <div class="img2"><img src="../Images/Final_Icon.png"></div>
@@ -234,7 +235,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 slideInRight">
             <div class="card">
               <div class="img1"><img src="../Images/NK.jpeg"></div>
               <div class="img2"><img src="../Images/Final_Icon.png"></div>
@@ -821,6 +822,7 @@
       </div>
   </footer>
   <script src="../js/totop.js"></script>
+  <script src="../js/wow.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
@@ -834,6 +836,23 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
     integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script>
+      wow = new WOW(
+        {
+          animateClass: 'animated',
+          offset:       100,
+          callback:     function(box) {
+            console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+          }
+        }
+      );
+      wow.init();
+      document.getElementById('moar').onclick = function() {
+        var section = document.createElement('section');
+        section.className = 'section--purple wow fadeInDown';
+        this.parentNode.insertBefore(section, this);
+      };
+    </script>
   <script type="text/javascript">
     $('.slider').slick({
       dots: false,
