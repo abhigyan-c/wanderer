@@ -11,13 +11,14 @@
   <link rel="stylesheet" href="../CSS/ladakh.css">
   <link rel="stylesheet" href="../CSS/other_requisites.css">
   <link rel="stylesheet" href="../CSS/trial_icons.css">
+  <link rel="stylesheet" href="../CSS/animate.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body class="customCursor" style="padding-top: 130px;">
   <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="header">
-    <a class="navbar-brand" href="../HTML/index.html" id="imganc"><img id="logostyle" src="../Images/Final_Logo.png" height="100"
-        width="100"></a>
+    <a class="navbar-brand" href="../HTML/index.html" id="imganc"><img id="logostyle" src="../Images/Final_Logo.png"
+        height="100" width="100"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="toggle1">
       <span class="navbar-toggler-icon"></span>
@@ -58,7 +59,7 @@
     </div>
 
   </nav>
-   <div class="container">
+  <div class="container">
     <div class="row">
       <div class="col-md-9">
         <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
@@ -88,7 +89,8 @@
           </a>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-3 wow pulse animated"
+        style="visibility: visible; animation-duration: 1500ms; animation-iteration-count: infinite; animation-name: pulse;">
         <div class="banner-container">
           <div class="banner">
             <div class="content">
@@ -102,7 +104,7 @@
       </div>
     </div>
   </div>
-<br><br>
+  <br><br>
 
   <div class="container">
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -163,14 +165,24 @@
         </ul>
       </div>
       <div class="tab-pane fade" id="how-to-reach" role="tabpanel" aria-labelledby="pills-end-tab"><br>
-          
-            <b><p>The Zoji-La Pass and Kargil route from Srinagar District in Kashmir Valley and the high-altitude Manali-Leh Highway from Himachal Pradesh are the two routes into the area from the outside. The Manali-Leh road is only available from May or June until October or November, when numerous passes have been cleared of snow. The Srinagar-Leh route is open from April or May to November or December[1], with the exception of Zoji La Pass, which is frequently blocked by snow throughout the winter.</p>
-            <p>Indigo, Vistara, GoFirst, and Air India offer year-round flights from Delhi to Kushok Bakula Rimpochee Airport in Leh. Jammu and Srinagar are also served by Air India on a weekly basis.</p> 
-            <p>Except for the road to Zangskar, all roads in Ladakh are open all year. The Khardong-La Pass, which connects Nubra and Khardong-La, may be closed by snow for several days in winter and spring. Chang-La pass to Pangong Lake rarely closes.</p>
-            <p>From the towns of Leh and Kargil, buses cover the entire region. In Leh and Kargil, as well as in block heads such as Tangtse, Diskit, and Khalsa, taxis are available. Early in the morning, shared taxis depart Leh for Nubra, Kargil, Srinagar, and Zanskar.</p>
- 
-            <p>Udhampur, the nearest railhead, is connected to all of India's main cities and towns.</p>
-          </b>
+
+        <b>
+          <p>The Zoji-La Pass and Kargil route from Srinagar District in Kashmir Valley and the high-altitude Manali-Leh
+            Highway from Himachal Pradesh are the two routes into the area from the outside. The Manali-Leh road is only
+            available from May or June until October or November, when numerous passes have been cleared of snow. The
+            Srinagar-Leh route is open from April or May to November or December[1], with the exception of Zoji La Pass,
+            which is frequently blocked by snow throughout the winter.</p>
+          <p>Indigo, Vistara, GoFirst, and Air India offer year-round flights from Delhi to Kushok Bakula Rimpochee
+            Airport in Leh. Jammu and Srinagar are also served by Air India on a weekly basis.</p>
+          <p>Except for the road to Zangskar, all roads in Ladakh are open all year. The Khardong-La Pass, which
+            connects Nubra and Khardong-La, may be closed by snow for several days in winter and spring. Chang-La pass
+            to Pangong Lake rarely closes.</p>
+          <p>From the towns of Leh and Kargil, buses cover the entire region. In Leh and Kargil, as well as in block
+            heads such as Tangtse, Diskit, and Khalsa, taxis are available. Early in the morning, shared taxis depart
+            Leh for Nubra, Kargil, Srinagar, and Zanskar.</p>
+
+          <p>Udhampur, the nearest railhead, is connected to all of India's main cities and towns.</p>
+        </b>
       </div>
     </div>
   </div>
@@ -571,6 +583,24 @@
       </div>
   </footer>
   <script src="../js/totop.js"></script>
+  <script src="../js/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset: 100,
+        callback: function (box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function () {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
     crossorigin="anonymous"></script>
