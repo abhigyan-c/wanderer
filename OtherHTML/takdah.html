@@ -12,17 +12,6 @@
   <link rel="stylesheet" href="../CSS/other_requisites.css">
   <link rel="stylesheet" href="../CSS/trial_icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  <style>
-    .carousel-indicators li {
-      height: 10px;
-      width: 10px;
-      border-radius: 50%;
-    }
-    
-    .modal-content {
-      background-image: url(../Images/footerbg.png);
-    }
-  </style>
 </head>
 
 <body class="customCursor" style="padding-top: 130px;">
@@ -70,34 +59,50 @@
 
   </nav>
   <div class="container">
-    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
-      <ol id="myCarousel-indicators" class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="../Images/Andaman.jpg" class="d-block w-100" height="550" alt="...">
-        </div>
-        <div class="carousel-item" data-bs-interval="10000">
-          <img src="../Images/Ladakh.jpg" class="d-block w-100" height="550" alt="...">
-        </div>
-        <div class="carousel-item" data-bs-interval="10000">
-          <img src="../Images/NK.jpeg" class="d-block w-100" alt="..." height="550">
+    <div class="row">
+      <div class="col-md-9">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+          <ol id="myCarousel-indicators" class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="../Images/ladakhbgm.jpg" class="d-block w-100" height="422" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="../Images/Ladakh.jpg" class="d-block w-100" height="422" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="../Images/ladakhbgm.jpg" class="d-block w-100" alt="..." height="422">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <div class="col-md-3 wow pulse animated">
+        <div class="banner-container">
+          <div class="banner">
+            <div class="content">
+              <span>best</span>
+              <h3>resort experience</h3>
+              <p>at the heart of nature</p>
+              <a href="#" class="btn">book now</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-<br><br>
+  </div>
+  <br><br>
 
   <div class="container">
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -123,7 +128,13 @@
         <br>
         <h3>About Takdah</h3><br>
         <p>
-          Takdah Cantonment, as the name suggests, was a British cantonment in India prior to independence. Many British officers of high rank from all throughout India travelled there. Takdah, like many other towns and villages, was abandoned by the new regime after independence. It was only recently that people began to settle in the area. Though the British are long gone, the spectacular structures built during the British era can still be found. Takdah's masterpiece is located in an old, abandoned club building about a kilometre from town. In comparison to its surroundings, the town is higher in elevation, giving place to cedar trees, and it is significantly cooler.
+          Takdah Cantonment, as the name suggests, was a British cantonment in India prior to independence. Many British
+          officers of high rank from all throughout India travelled there. Takdah, like many other towns and villages,
+          was abandoned by the new regime after independence. It was only recently that people began to settle in the
+          area. Though the British are long gone, the spectacular structures built during the British era can still be
+          found. Takdah's masterpiece is located in an old, abandoned club building about a kilometre from town. In
+          comparison to its surroundings, the town is higher in elevation, giving place to cedar trees, and it is
+          significantly cooler.
         </p>
       </div>
       <div class="tab-pane fade" id="highlight" role="tabpanel" aria-labelledby="pills-profile-tab">
@@ -133,44 +144,84 @@
 
         <h5>Arrival at Takdah</h5>
 
-        You will be transferred to the hotel and checked in upon arrival at NJP station, to Takdah Heritage Colonial Bungalow No. 12. Overnight stay with dinner and snacks. <br>
+        You will be transferred to the hotel and checked in upon arrival at NJP station, to Takdah Heritage Colonial
+        Bungalow No. 12. Overnight stay with dinner and snacks. <br>
 
         <h3 id="a3">Day 2 </h3>
 
         <h5>Takdah Tour</h5>
-        Breakfast at 9, then we leave for sightseeing. Takdah is home to some of the most scenic tea gardens in the Darjeeling area. You may walk down to some of them or take a local taxi trip to explore the tea gardens on rolling hills. Takdah's principal tea estates include Rungli Rungliot, Gielle, Namring, Jinglam, Poomong, and Teesta Valley. You may also go to the estate factories and observe the tea being made (in the factories usually remain closed). The Gielle Bhanjyang Bazaar, commonly known as Gandhi Chowk, is located further down from Rungli Rungliot. There used to be a statue of Mahatma Gandhi here, but it is no longer there. This is where Jinglam Tea Estate and Gielle Tea Estate meet. Lunch at a hotel nearby. Then we proceed to the monastery. Takdah has a small monastery called Dechhen Pema Tshoiling Monastery, but it is more commonly known as Takdah Monastery. Following the market area, a steep uphill boulder road leads to a steep stairs. To get to the Monastery, you'll have to ascend several flights of stairs. The Lovers Meet Viewpoint, located on Peshok Road about 10 kilometres below Lamahatta, is a beautiful site to visit by automobile. You may get a great view of Triveni, which is the confluence of the rivers Teesta and Rangeet. The confluence is near Melli and is accessible via Melli. Teesta White Water Rafting is common in this sandy delta formation. We reach view point at sunset by 5:30 pm. Then we return to our bungalow by 7 pm. Snacks and dinner at the hotel. <br>
+        Breakfast at 9, then we leave for sightseeing. Takdah is home to some of the most scenic tea gardens in the
+        Darjeeling area. You may walk down to some of them or take a local taxi trip to explore the tea gardens on
+        rolling hills. Takdah's principal tea estates include Rungli Rungliot, Gielle, Namring, Jinglam, Poomong, and
+        Teesta Valley. You may also go to the estate factories and observe the tea being made (in the factories usually
+        remain closed). The Gielle Bhanjyang Bazaar, commonly known as Gandhi Chowk, is located further down from Rungli
+        Rungliot. There used to be a statue of Mahatma Gandhi here, but it is no longer there. This is where Jinglam Tea
+        Estate and Gielle Tea Estate meet. Lunch at a hotel nearby. Then we proceed to the monastery. Takdah has a small
+        monastery called Dechhen Pema Tshoiling Monastery, but it is more commonly known as Takdah Monastery. Following
+        the market area, a steep uphill boulder road leads to a steep stairs. To get to the Monastery, you'll have to
+        ascend several flights of stairs. The Lovers Meet Viewpoint, located on Peshok Road about 10 kilometres below
+        Lamahatta, is a beautiful site to visit by automobile. You may get a great view of Triveni, which is the
+        confluence of the rivers Teesta and Rangeet. The confluence is near Melli and is accessible via Melli. Teesta
+        White Water Rafting is common in this sandy delta formation. We reach view point at sunset by 5:30 pm. Then we
+        return to our bungalow by 7 pm. Snacks and dinner at the hotel. <br>
 
         <h3 id="a3">Day 3 </h3>
 
         <h5>Takdah tour part II</h5>
 
-        We leave early after breakfast for the view of the fresh orchids. Takdah features a fantastic Orchid Center that spans a large area. It's about a half-kilometer walk from the market area to the 6th mile. Many different types of exotic and colourful Himalayan Orchids are developed and grown here. Many visitors travel to Takdah specifically to see the Orchid Center.Another close destination is Mongpu, where you may see the orchid nurseries, the great poet Rabindranath Tagore's museum, and the large Cinchona plantations.
-        Visit the beautiful orange orchards in Bara and Chota Mangwa (both about 12kms from Takdah). You can get a couple bottles of fresh orange juice from the little companies here. It tastes wonderful and is completely natural. Lunch at silk route restaurant on the way back. Then we visit the Durpin Viewpoint at sunset, which is roughly 10 kilometres from Takdah. The Teesta River meanders through the alpine sceneries, providing a wonderful vista. From here, you may also enjoy a great view of Kanchenjunga. Peshoke Tea Garden Viewpoint is about 14 kilometres away and provides a beautiful view of the tea gardens on the hill slopes. Return to the hotel by 7. The resort facilitates campfire in the evening, so its recommended that you have tea and snacks sitting beside the campfire. Dinner at night. <br>
+        We leave early after breakfast for the view of the fresh orchids. Takdah features a fantastic Orchid Center that
+        spans a large area. It's about a half-kilometer walk from the market area to the 6th mile. Many different types
+        of exotic and colourful Himalayan Orchids are developed and grown here. Many visitors travel to Takdah
+        specifically to see the Orchid Center.Another close destination is Mongpu, where you may see the orchid
+        nurseries, the great poet Rabindranath Tagore's museum, and the large Cinchona plantations.
+        Visit the beautiful orange orchards in Bara and Chota Mangwa (both about 12kms from Takdah). You can get a
+        couple bottles of fresh orange juice from the little companies here. It tastes wonderful and is completely
+        natural. Lunch at silk route restaurant on the way back. Then we visit the Durpin Viewpoint at sunset, which is
+        roughly 10 kilometres from Takdah. The Teesta River meanders through the alpine sceneries, providing a wonderful
+        vista. From here, you may also enjoy a great view of Kanchenjunga. Peshoke Tea Garden Viewpoint is about 14
+        kilometres away and provides a beautiful view of the tea gardens on the hill slopes. Return to the hotel by 7.
+        The resort facilitates campfire in the evening, so its recommended that you have tea and snacks sitting beside
+        the campfire. Dinner at night. <br>
 
         <h3 id="a3">Day 4</h3>
 
         <h5>Depart</h5>
-          Time to say goodbye to the short, yet wonderful trip at Takdah. Hope you had a great time. We drop you at the NJP station by noon time. Have a safe journey homewards.
+        Time to say goodbye to the short, yet wonderful trip at Takdah. Hope you had a great time. We drop you at the
+        NJP station by noon time. Have a safe journey homewards.
         </p>
       </div>
       <div class="tab-pane fade" id="hotels" role="tabpanel" aria-labelledby="pills-contact-tab">
-<b><h3>Takdah Heritage Colonial Bungalow : </h3></b>
-<p>
-  Takdah Heritage Colonial Bungalow No.12 used to be a British Army officers Bunglow, Built on 1911 at Takdah Cantonment, Darjeeling.It is located in the lap of Pine forest away from the town yet it is well connected with road links. This Heritage bunglow is now a luxurious resort with all modern amenities wall mounted LEDs, spring beds, fully furnished rooms, western washrooms with tub and hot water. A conferencing hall for business meetings, green lawn in the front, backyard gardens and fresh water stream nearby are added bonanza for spending treasured vacations. <br> <b>**The most fascinating fact is that there is no hotel or shop or market within 7 km radius of this hotel... All you have is the bungalow surrounded by hills and woods. So we recommend you to take a stroll in the woods in the evening with your tour members, to enjoy a silent yet thrilling and romantic atmosphere.</b>
-</p>
+        <b>
+          <h3>Takdah Heritage Colonial Bungalow : </h3>
+        </b>
+        <p>
+          Takdah Heritage Colonial Bungalow No.12 used to be a British Army officers Bunglow, Built on 1911 at Takdah
+          Cantonment, Darjeeling.It is located in the lap of Pine forest away from the town yet it is well connected
+          with road links. This Heritage bunglow is now a luxurious resort with all modern amenities wall mounted LEDs,
+          spring beds, fully furnished rooms, western washrooms with tub and hot water. A conferencing hall for business
+          meetings, green lawn in the front, backyard gardens and fresh water stream nearby are added bonanza for
+          spending treasured vacations. <br> <b>**The most fascinating fact is that there is no hotel or shop or market
+            within 7 km radius of this hotel... All you have is the bungalow surrounded by hills and woods. So we
+            recommend you to take a stroll in the woods in the evening with your tour members, to enjoy a silent yet
+            thrilling and romantic atmosphere.</b>
+        </p>
       </div>
       <div class="tab-pane fade" id="how-to-reach" role="tabpanel" aria-labelledby="pills-end-tab"><br>
         <ul>
           <li>
-            <b>Takdah is around 60 kilometres from NJP (the nearest railhead) and Bagdogra (the nearest airport) Takdah is around 2.5-3 hours by road from NJP or Bagdogra Siliguri. The nearest town is approximately 52 kilometres from Takdah, Darjeeling is approximately 28 kilometres away (about 1.5 hours by driving), and Kalimpong is approximately 40 kilometres away (2 hours).</b>
+            <b>Takdah is around 60 kilometres from NJP (the nearest railhead) and Bagdogra (the nearest airport) Takdah
+              is around 2.5-3 hours by road from NJP or Bagdogra Siliguri. The nearest town is approximately 52
+              kilometres from Takdah, Darjeeling is approximately 28 kilometres away (about 1.5 hours by driving), and
+              Kalimpong is approximately 40 kilometres away (2 hours).</b>
           </li>
         </ul>
       </div>
     </div>
   </div>
-  <br><hr><br>
+  <br>
+  <hr><br>
   <DIV style="align-items: right; margin-left: 80%;">
-  <button type="button" class="btn btn-success" >Confirm Package NOW</button>
+    <button type="button" class="btn btn-success">Confirm Package NOW</button>
   </DIV>
   <button onclick="topFunction()" id="myBtn" title="Go to top"
     style="position: fixed; bottom: 20px; right: 30px; color: #FF7900; background-color: #5865f2; border-radius: 100%; opacity: 80%;">
