@@ -14,7 +14,7 @@
 	<link rel="stylesheet" href="../CSS/animate.css">
         <link rel="stylesheet" href="../CSS/other_requisites.css">
         <link rel="icon" href="../Images/Final_Icon.png">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link rel="stylesheet" href="../CSS/trial_icons.css">
 
         <title>Wanderer</title>
@@ -103,21 +103,22 @@
 
           <div class="container my-4">
             <div class="transparentbox" id="head5">
-              <form method="post" name="form1" onsubmit="myFunction(event)">
+              <form action="https://formsubmit.co/wandererteam22@gmail.com" method="POST">
                 <div class="form-group">
                   <label for="exampleFormControlInput1">Name</label>
-                  <input type="text" class="form-control" id="req1" placeholder="type your name here" required>
+                  <input type="text" class="form-control" id="req1" placeholder="type your name here" name="name" required>
                 </div>
                 <div class="form-group">
                   <label for="exampleFormControlInput1">Email address</label>
-                  <input type="email" class="form-control" id="req1" placeholder="name@abc.com" required>
+                  <input type="email" class="form-control" id="req1" placeholder="name@abc.com" name="email" required>
                 </div><br>
-
+                 <DIV><input type="hidden" name="_next" value="https://abhigyan-c.github.io/wanderer/OtherHTML/thanks.html"></DIV>
+                 
 
                 <h5>Why?</h5><br>
                 <div class="form-group">
                   <label for="exampleFormControlSelect1">Select your Query</label>
-                  <select class="form-control" id="exampleFormControlSelect1">
+                  <select class="form-control" id="exampleFormControlSelect1" name="query">
                     <option>Travel Query</option>
                     <option>Visa Query</option>
                     <option>Travel/Package Details</option>
@@ -129,7 +130,7 @@
 
                 <div class="form-group">
                   <label for="exampleFormControlTextarea2">Elaborate Your Concern</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea2" rows="3" required></textarea>
+                  <textarea class="form-control" id="exampleFormControlTextarea2" rows="3" name="message" required></textarea>
                 </div>
                 <button class="btn btn-primary"
                   onclick="notEmpty(document.getElementById('req1'), 'Please Enter a any value or name')"
@@ -536,7 +537,7 @@
         </div>
       </div>
   </footer>
-	     <script>
+<script>
       wow = new WOW(
         {
           animateClass: 'animated',
@@ -552,19 +553,13 @@
         section.className = 'section--purple wow fadeInDown';
         this.parentNode.insertBefore(section, this);
       };
-    </script>
+</script>
 	  <script src="../js/wow.js"></script>
           <script src="../js/totop.js"></script>
           <script src="../js/contact.js"></script>
-          <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-          integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-          crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-          integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-          crossorigin="anonymous"></script>
-      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-          integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-          crossorigin="anonymous"></script>
+          <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
       </body>
       
       </html>
