@@ -6,32 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WANDERER || NORTH RAJASTHAN</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
   <link rel="icon" href="../Images/Final_Icon.png">
   <link rel="stylesheet" href="../CSS/ladakh.css">
   <link rel="stylesheet" href="../CSS/other_requisites.css">
   <link rel="stylesheet" href="../CSS/trial_icons.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <style>
-    .carousel-indicators li {
-      height: 10px;
-      width: 10px;
-      border-radius: 50%;
-    }
-    
-    .modal-content {
-      background-image: url(../Images/footerbg.png);
-    }
-  </style>
+  <link rel="stylesheet" href="../CSS/animate.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body class="customCursor" style="padding-top: 130px;">
   <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="header">
-    <a class="navbar-brand" href="../HTML/index.html" id="imganc"><img id="logostyle" src="../Images/Final_Logo.png" height="100"
-        width="100"></a>
+    <a class="navbar-brand" href="../HTML/index.html" id="imganc"><img id="logostyle" src="../Images/Final_Logo.png"
+        height="100" width="100"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="toggle1">
       <span class="navbar-toggler-icon"></span>
@@ -72,40 +59,51 @@
     </div>
 
   </nav>
-  <div class="container" style="margin-left:0%; margin-right:0%;">
-  <div class="row no-gutters">
-  <div class="col-md-7">
-  <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
-    <ol id="myCarousel-indicators" class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-        <img src="../Images/ladakhbg.jpg" class="d-block w-100" height="422" alt="...">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-9">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+          <ol id="myCarousel-indicators" class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="../Images/ladakhbgm.jpg" class="d-block w-100" height="482" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="../Images/Ladakh.jpg" class="d-block w-100" height="482" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img src="../Images/ladakhbgm.jpg" class="d-block w-100" alt="..." height="482">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
       </div>
-      <div class="carousel-item" data-bs-interval="10000">
-        <img src="../Images/Ladakh.jpg" class="d-block w-100" height="422" alt="...">
-      </div>
-      <div class="carousel-item" data-bs-interval="10000">
-        <img src="../Images/ladakhbg.jpg" class="d-block w-100" alt="..." height="422">
+      <div class="col-md-3 wow pulse animated">
+        <div class="banner-container">
+          <div class="banner">
+            <div class="content">
+              <span>experience</span>
+              <h3>best trip at lowest price</h3>
+              <p>enjoy the beauty of Rajasthan</p>
+              <a href="#" class="btn wow pulse animated" style="visibility: visible; animation-duration: 1500ms; animation-iteration-count: infinite; animation-name: pulse;">book now</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
-</div>
- <div class="col-md-5" style="text-align: justify; padding: 1%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor neque vitae tempus quam pellentesque nec nam aliquam sem. Morbi leo urna molestie at elementum eu. Ipsum dolor sit amet consectetur adipiscing. Pulvinar pellentesque habitant morbi tristique senectus et. Viverra aliquet eget sit amet tellus cras. Fermentum odio eu feugiat pretium nibh ipsum consequat nisl. Maecenas pharetra convallis posuere morbi. Bibendum ut tristique et egestas. Dolor magna eget est lorem ipsum dolor sit. Quis imperdiet massa tincidunt nunc. Vitae congue eu consequat ac felis donec et. Massa sed elementum tempus egestas sed sed risus. Mi proin sed libero enim sed faucibus turpis in eu. Et netus et malesuada fames ac. Id aliquet lectus proin nibh nisl. Bibendum at varius vel pharetra vel. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet. Augue lacus viverra vitae congue.</div>
-</div>
-</div>
-<br><br>
+  <br><br>
 
   <div class="container">
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -115,7 +113,7 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#highlight" role="tab"
-          aria-controls="pills-profile" aria-selected="false"><b>SIGHTSEEING</b></a>
+          aria-controls="pills-profile" aria-selected="false"><b>ITINERARY</b></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#hotels" role="tab"
@@ -130,43 +128,128 @@
       <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="pills-home-tab">
         <br>
         <h3>About North Rajasthan</h3><br>
-        <p>Kalibangn is a town in Rajasthan, India, located on the left or southern bank of the Ghaggar (Ghaggar-Hakra River)[1][2] in Tehsil Pilibangn, between Suratgarh and Hanumangarh in Hanumangarh District. Bikaner is 205 kilometres away. It is also known for being located in a triangle of land at the confluence of the Drishadvati and Sarasvati rivers.</p>
+        <p>Kalibangn is a town in Rajasthan, India, located on the left or southern bank of the Ghaggar (Ghaggar-Hakra
+          River) in Tehsil Pilibangn, between Suratgarh and Hanumangarh in Hanumangarh District. Bikaner is 205
+          kilometres away. It is also known for being located in a triangle of land at the confluence of the Drishadvati
+          and Sarasvati rivers.</p>
         <p>
-        [3] Luigi Tessitori discovered the prehistoric and pre-Mauryan character of the Indus Valley Civilization at this location. The Archaeological Survey of India published Kalibangan's excavation report in its entirety in 2003, 34 years after the excavations were completed. According to the research, Kalibangan was a key provincial capital of the Indus Valley Civilization. Kalibangan is notable for its one-of-a-kind fire altars and the "world's earliest known ploughed field." Around 2900 BC, the Kalibangan region developed into what might be termed a planned metropolis.</p>
+          Luigi Tessitori discovered the prehistoric and pre-Mauryan character of the Indus Valley Civilization at this
+          location. The Archaeological Survey of India published Kalibangan's excavation report in its entirety in 2003,
+          34 years after the excavations were completed. According to the research, Kalibangan was a key provincial
+          capital of the Indus Valley Civilization. Kalibangan is notable for its one-of-a-kind fire altars and the
+          "world's earliest known ploughed field." Around 2900 BC, the Kalibangan region developed into what might be
+          termed a planned metropolis.</p>
         <p>
-          Bhainsrorgarh Fort, also known as Bhainsror Fort, is an old fort in the Indian state of Rajasthan. Rawatbhata, 7 kilometres from Bhainsror, is the nearest city.
+          Bhainsrorgarh Fort, also known as Bhainsror Fort, is an old fort in the Indian state of Rajasthan. Rawatbhata,
+          7 kilometres from Bhainsror, is the nearest city.
 
-          Bhainsrorgarh is an impregnable fort with a surrounding region that has been inhabited from at least the second century BC.The fort was initially constructed by a Baniya merchant named Bhainsa Sah and a Charan trader named Rora Charan to safeguard their caravans from bandits. 
-          </p>
-          <p>
-          The name of the fort comes from the combination of Bhansa and Rora. It is situated between two rivers, the Chambal and the Bamani. It had passed through various hands before becoming the residence of a premier noble of Mewar, the enormous territory surrounding Udaipur and Princely State of the Sisodia line. It has five tanks, shrines to Devi Bhim Chauri, Shiva, and Ganesh, and a rented mansion.
+          Bhainsrorgarh is an impregnable fort with a surrounding region that has been inhabited from at least the
+          second century BC.The fort was initially constructed by a Baniya merchant named Bhainsa Sah and a Charan
+          trader named Rora Charan to safeguard their caravans from bandits.
+        </p>
+        <p>
+          The name of the fort comes from the combination of Bhansa and Rora. It is situated between two rivers, the
+          Chambal and the Bamani. It had passed through various hands before becoming the residence of a premier noble
+          of Mewar, the enormous territory surrounding Udaipur and Princely State of the Sisodia line. It has five
+          tanks, shrines to Devi Bhim Chauri, Shiva, and Ganesh, and a rented mansion.
 
         </p>
       </div>
       <div class="tab-pane fade" id="highlight" role="tabpanel" aria-labelledby="pills-profile-tab">
         <br>
-        <h3>Places to visit:-</h3><br>
-        <ul style="list-style-type: circle;">
-          <li>Kalibangan</li>
-          <li>Bhaisongarh Fort</li>
-          <li>Bikaner</li>
-        </ul>
-        <p>And many more...</p>
+        <P>
+        <h3 id="a3">Day 1 </h3>
+
+        <h5>Arrival at Jaipur </h5>
+
+        You will be transferred to the hotel at Jaipur upon your arrival at Jaipur station/airport.A full day of
+        relaxation is required for acclimatisation. Lunch and dinner at the hotel in Jaipur, as well as an overnight
+        stay. <br>
+
+        <h3 id="a3">Day 2 </h3>
+
+        <h5>Jaipur City Tour</h5>
+
+        Breakfast at the hotel. Then we set out for local sightseeing. The local trip planner will assist you for your
+        visit to Amer Fort, Jaigarh Fort, Nahargarh Forts, Jal mahal, Hawa mahal, Johri Bazaar,Jantar Mantar and City
+        Palace. Snacks and dinner back at the hotel. Overnight stay at the hotel.<br>
+
+        <h3 id="a3">Day 3</h3>
+
+        <h5>Jaipur to Bikaner</h5>
+
+        Set out for a 3 hour drive journey to Bikaner in the morning. Lunch on reaching the hotel, after a tiresome
+        journey through the scorching heat. After a bit of rest, we suggest travellers to stroll out for roaming around
+        the local markets, and the famous Karni Mata Temple. Dinner at the hotel. Overnight stay.<br>
+
+        <h3 id="a3">Day 4 </h3>
+
+        <h5>Bikaner sightseeing</h5>
+
+        You visit Bikaner and miss the Junagarh fort, that's not possible. We set out for the majestic Junagarh fort
+        just after breakfast. Initially called Chintamani Mahal, this old fort has impeccable architecture, which is so
+        marvellous that it’d leave you spellbound. Then we move on to the Lalgarh Palace. After that, we take lunch at a
+        local restaurant, enjoying local cuisine like dal bati and churma. At 3 , we set out for the Thar safari in
+        Bikaner, which is also not one to miss out on your Rajasthan trip. At around 5, we experience the beautiful
+        sunset at the Thar and then return to our hotel. Dinner and overnight stay at the hotel.<br>
+
+        <h3 id="a3">Day 5</h3>
+
+        <h5>Bikaner to Kalibangan via Bhainsrorgarh</h5>
+
+        We won't let you to miss out on the widely rumoured mysterious palace called the Bhangarh fort, or locally known
+        as the Bhainsrorgarh fort. After breakfast, we board a bus that takes you to Bhangarh within 2 hours. Bhangarh
+        lies between Jaipur and Alwal. This majestic and beautiful fort is to be visited within sunset. After the visit
+        to the fort, our driver would reach you and escort you to the next spot at Kalibangan. Lunch on the way at a
+        restaurant of your convinience. Reach Kalibangan hotel by 7. Snacks and dinner at the hotel.<br>
+
+        <h3 id="a3">Day 6</h3>
+
+        <h5>Kalibangan sightseeing</h5>
+
+        Eager to establish that Indus Valley Civilization was truly Indian in character, Kalibanga was taken up as a
+        prime site and feverish excavation work took place in a manner more technically advanced than what was done at
+        Mohanjodaro and Harappa. With scientific precision, Kalibangan was exposed to the light of the day like a body
+        exhumed for analysis and interpretations. Though not as big as its counterparts across the border in Pakistan,
+        Kalibanga nevertheless became a major site of the IVC-a monument to Indian history and history of man. But then
+        came years of neglect. It seemed after the digging was over, no thought was given for conservation of the
+        excavated site. Temporary solution proved completely ineffective against the fury of the elements. The precious
+        evidence so painstakingly excavated finally crumbled into unrecognizable rubble. It is now over thirty years
+        after the excavations stopped, and as yet there is no final report of the digging done at Kalibanga. If it was
+        officially written, it never got published for public use. So today, the IVC site of Kalibanga stands not only
+        completely destroyed but also forgotten.<br>
+
+        <h3 id="a3">Day 7</h3>
+
+        <h5>Departure</h5>
+        You will be escorted to the Kalibangan station , where you board the train to Jaipur station, and then a
+        train/flight back to home as per your convinience. Its time to bid goodbye to the wonderful memories you made in
+        Rajasthan. Have a safe journey homewards.
+        </P>
       </div>
       <div class="tab-pane fade" id="hotels" role="tabpanel" aria-labelledby="pills-contact-tab">
         <ul style="list-style-type: disc;">
-          <li>NOVOTEL</li>
-          <li>SWISSOTEL</li>
+          <li>
+            <h5>Hotel Green World :</h5> Amazing hotel for a 2-day stay at Kalibangan
+          </li><br>
+          <li>
+            <h5>Hotel Silver Pride :</h5> Hotel for stay at Jaipur, very close to the airport.
+          </li><br>
+          <li>
+            <h5>Hotel Millennium :</h5> Hotel for stay at Bikaner
+          </li><br>
         </ul>
       </div>
       <div class="tab-pane fade" id="how-to-reach" role="tabpanel" aria-labelledby="pills-end-tab"><br>
         <ul>
           <li>
-            <b>Kalibangan is at a distance of 661 km from Delhi, the national capital and the nearest railway station is at Bikaner, 205 km away.</b>
+            <b>Kalibangan is at a distance of 661 km from Delhi, the national capital and the nearest railway station is
+              at Bikaner, 205 km away.</b>
           </li>
           <br>
           <li>
-            <b>By Rail: </b>Kota Railway Station,60.75km from Kota Railway Station, approx. 106min by car.</li>
+            <b>By Rail: </b>Kota Railway Station,60.75km from Kota Railway Station, approx. 106min by car.
+          </li>
           <br>
           <li>
             <b>By Plane: </b>Airport Kota Airport 54.5km from Kota Airport, approx. 92min by car.
@@ -572,15 +655,27 @@
       </div>
   </footer>
   <script src="../js/totop.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+  <script src="../js/wow.js"></script>
+  <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset: 100,
+        callback: function (box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+    document.getElementById('moar').onclick = function () {
+      var section = document.createElement('section');
+      section.className = 'section--purple wow fadeInDown';
+      this.parentNode.insertBefore(section, this);
+    };
+  </script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
