@@ -19,8 +19,28 @@
         <title>Wanderer</title>
         
         <style>
+             #head1{
+    font-family: Rubik;
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 500;
+}
         .modal-content {
       background-image: url(../Images/footerbg.png);
+    }
+    #para { font-family: 'Lato', sans-serif; font-size: 22px; font-weight: 300; line-height: 58px; margin: 0 0 58px; text-align: justify;}
+
+    .navlk{
+      color:#5865f2
+    }
+    .navlk:hover{
+      color: orange;
+      transition: 1s;
+      transform:translate3d();
+    }
+    .act{
+      color: #5865f2;
+      background-color: rgba(255, 166, 0, 0.212);
     }
         </style>
     </head>
@@ -147,6 +167,53 @@
 
       </div>
 
+    </section>
+        
+        <section>
+      <div class="row justify-content-center wow slideInRight" style="width:100%">
+        <div class="col-lg-12">
+          <div class="section_title text-center mb_70">
+            <h3 id="head1">HOTEL FACILITIES</h3>
+            <p>Top quality services provided by resorts in our collabolaration</p><HR><HR>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="padding: 15px;">
+      <div class="row">
+        <div class="col-2">
+          <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+            <a class="nav-link active navlk" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true"><i class="fa fa-bed fa-3x" aria-hidden="true"></i></a>
+            <a class="nav-link navlk" id="v-pills-dine-tab" data-toggle="pill" href="#v-pills-dine" role="tab" aria-controls="v-pills-dine" aria-selected="false"><i class="fa fa-cutlery fa-3x" aria-hidden="true"></i></a>
+            <a class="nav-link navlk" id="v-pills-bino-tab" data-toggle="pill" href="#v-pills-bino" role="tab" aria-controls="v-pills-bino" aria-selected="false"><i class="fa fa-binoculars fa-3x" aria-hidden="true"></i></a>
+            <a class="nav-link navlk" id="v-pills-camp-tab" data-toggle="pill" href="#v-pills-camp" role="tab" aria-controls="v-pills-camp" aria-selected="false"><i class="fa fa-fire fa-3x" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="col-10">
+          <div class="tab-content act" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <h1 style="text-align: center;">ROOM SERVICE</h1>
+              <P id="para">
+                A hotel’s main objective is to provide quality service to all visitors and guests. This is the motto of all the resorts/hotels/homestays you visit through us. Whatever be the location, team Wanderers on behalf of the hotel staff promises to provide the best services possible to provide for all customers who visit them at any part of the year, starting from housekeeping services, to providing food and water at your doorstep.
+              </P>
+            </div>
+            <div class="tab-pane fade" id="v-pills-dine" role="tabpanel" aria-labelledby="v-pills-dine-tab">
+              <h1 style="text-align: center;">LOUNGE & DINING</h1><P id="para">
+              Guests can please their taste buds with the buffet style "carte du jour" prepared by our local chef who offers delicious home cooked meals, be it local Bengali cuisine, Chinese or continental. Or one may go for the "al-a-carte" menu, which offers a special section comprising local fishes/tribal menu. Some of our resorts also provide a pub facility.</P>
+            </div>
+            <div class="tab-pane fade" id="v-pills-bino" role="tabpanel" aria-labelledby="v-pills-bino-tab">
+              <h1 style="text-align: center;">TREKING & WILDLIFE</h1><P id="para">
+                Guests can go out for treking in the morning(if possible in the location). In such case, hotel management may arrange for the treking stuff, food , wtc. required for you to go out in the wild and enjoy the natural beauty.</P>
+            </div>
+            <div class="tab-pane fade" id="v-pills-camp" role="tabpanel" aria-labelledby="v-pills-camp-tab">
+              <H1 style="text-align: center;">ACTIVITIES</H1>
+              <P id="para">
+                To maintain the noise free, pollution free and echo-friendly atmosphere, Biking is a wonderful option to take a tour around the village and meet local inhabitators, in the remote areas where you visit. Bicycles are available on hire at most of the resorts. Please contact the resort Coordinator or our staff if you wish to hire a bike . But, one should be prepared for a bumpy ride as the roads are not paved, and always carry a map of the village. If guests want to buy any souvenir, packed or packaged local items or produces, please contact the person in charge at the resort. Some of our hotels also provides campfire and tent facilities to make the trip a remarkable one.
+              </P>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
      <button onclick="topFunction()" id="myBtn" title="Go to top" style="position: fixed; bottom: 20px; right: 30px; color: #FF7900; background-color: #5865f2; border-radius: 100%; opacity: 80%;">
      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
