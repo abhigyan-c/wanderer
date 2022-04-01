@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Confirm your package</title>
+    <link rel="stylesheet" href="../Forms/forms.css">
+    <link rel="icon" href="../Images/Final_Icon.png">
+    <link rel="stylesheet" href="../CSS/other_requisites.css">
+</head>
+
+<body class="customCursor">
+    <form class="my-form" action="https://formsubmit.co/wandererteam22@gmail.com" method="POST" enctype="multipart/form-data">
+        <div class="container">
+            <h1>Please fill out this form </h1>
+            <ul>
+                <li>
+                    <label for="exampleFormControlSelect1">
+                        <h3>Package Selected</h3>
+                    </label>
+                    <select class="form-control" id="exampleFormControlSelect1" name="package_selected">
+                        <option selected disabled>Package || LADAKH</option>
+                    </select>
+                </li>
+                <li>
+                    <div class="grid grid-2">
+                        <input type="text" placeholder="Name" name="name" required>
+                        <input type="number" placeholder="Age" name="age" required>
+                    </div>
+                </li>
+                <li>
+
+                    <label for="email">Email-id:</label> <input type="email" placeholder="name@abc.com" name="email"
+                        id="email" required> <br>
+                    <label for="phone"> Phone no. :</label><input type="number"
+                        placeholder="Enter valid 10-digit phone no." name="phone" id="phone" required> <br>
+                    <label for="gender"> Gender :</label> <select class="form-control" id="gender" name="gender">
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Others</option>
+                        <option>Rather not say</option>
+                    </select> <br>
+
+                </li>
+                <li>
+                    <label for="persons">How many people are travelling alongside you?</label>
+                    <input type="number" placeholder="Enter no." name="persons" id="persons" required>
+                </li>
+                <li>
+                    <label for="altphone">Alternative Contact no. :</label><input type="number"
+                        placeholder="Enter valid 10-digit phone no." name="altphone" id="altphone">
+                </li>
+                <li>
+                    <label>For your selected package, refer to the price details below (*additional charges will apply*): </label>
+                    <img src="../new_imgs/price_table1.jpg" height="100%" width="100%" alt="">
+                </li>
+                <li>
+                    <div class="container">
+                        <input type="radio" id="package_type1" name="package_type" value="primary" checked="checked">
+                        <label for="age1">PRIMARY</label>
+                        <input type="radio" id="package_type2" name="package_type" value="deluxe">
+                        <label for="age2">DELUXE</label>
+                        <input type="radio" id="package_type3" name="package_type" value="supreme">
+                        <label for="age3">SUPREME</label>
+                    </div><br>
+                </li>
+                <li>
+                    <label for="date_of_travel"> Please select the date you want to travel : </label> <select
+                        class="form-control" id="date_of_travel" name="date_of_travel">
+                        <option selected>10/5/2022</option>
+                        <option>21/5/2022</option>
+                        <option>9/7/2022</option>
+                        <option>12/8/2022</option>
+                    </select>
+                    <br>
+                    <div>[Note: Dates of packages may increase in the future, depending upon demand and popularity. If
+                        not satisfied with the dates them you can contact our admin agent <a
+                            href="https://wa.me/919330505741">Gaz</a>, who will try to get the trip as per your suitable
+                        date.]</div>
+                </li>
+                <li>
+                    <center><img src="../new_imgs/upi.jpg" height="50%" width="50%" alt="upi"></center>
+                    <br>
+                    <div>Scan this QR code in any app and send a payment of ₹12000 to this account as advance payment to
+                        confirm your package. You will soon be contacted within 24 hours by our admin agent Gaz, and
+                        we'll accept the rest of the payment after your package/trip is finalised.</div>
+                </li>
+                <li>
+                    <label for="upi1">Enter your Unique Transaction Reference Number -UTR/UPI Reference Number:</label>
+                    <input type="text" placeholder="Enter ref. no." name="UPI Ref No." id="upi1" required> <br>
+                </li>
+                <li>
+                    <div>
+                        Upload a Proof of Payment (Screenshot of payment with Unique Transaction Reference Number
+                        -UTR/UPI Reference Number or Payment Details) * <br>
+                        <!-- <input type="file" class="custom-file-input" id="screenshot" name="screenshot"
+                            value="screenshot" required> -->
+                            <input type="file" name="attachment" accept="image/png, image/jpeg" required>
+                        <br>
+                        <div>Also, send this screenshot to our admin agent, <a href="https://wa.me/919330505741">Gaz</a>, so that he can contact you back regarding
+                            this, as soon as possible.</div>
+                    </div>
+                </li>
+                <li>
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I have read and agreed with the terms and conditions.</label>
+                </li>
+                <input type="hidden" name="_next" value="https://abhigyan-c.github.io/wanderer/OtherHTML/thanks.html">
+                <li>
+                    <div class="grid grid-3">
+                        <div class="required-msg">REQUIRED FIELDS</div>
+                        <button class="btn-grid" type="submit">
+                            <span class="back">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/email-icon.svg" alt="">
+                            </span>
+                            <span class="front">SUBMIT</span>
+                        </button>
+                        <button class="btn-grid" type="reset">
+                            <span class="back">
+                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/eraser-icon.svg" alt="">
+                            </span>
+                            <span class="front">RESET</span>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </form>
+</body>
+
+</html>
