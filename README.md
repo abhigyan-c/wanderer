@@ -11,8 +11,7 @@ Welcome to Wanderer.<br>
 This website is of great help to people who are interested in traveling to remote places. It helps tourists to book hotels in new places where tourism is not so developed and provides an overview about the surroundings of that spot. The website helps tourists book their hotels, sort out their overall tour and also provides for the lounge(food and drinks services) for the customers.
 <br>
 <hr>
-<h2>Domain : Web Development </h2><br>
-
+<h2>Domain : Web Development </h2>
 ### Contribution Guidelines:
 
 We welcome all kinds of ideas which will help to develop this website into a more useful one.
