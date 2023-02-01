@@ -1,8 +1,11 @@
 .transparentbox{
-    background-color: rgb(250, 221, 90);
+    background-color: #d7d1ed;
     opacity: 0.95;
-    padding: 1%;
-    }
+    padding: 1rem;
+    border-radius: 1rem;
+    border-top: 5px solid black;
+    box-shadow: 0px 8px 15px #5d5772;
+}
 
 #head5{
     font-family: Montserrat;
