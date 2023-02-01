@@ -5,6 +5,7 @@ Welcome to Wanderer.<br>
 <br>
 <center><img src="https://github.com/acm-iem/Readme-template/blob/main/Logos/Diversion%20Long%20Logo%20Color.png" width="30%"></center>
 <br>
+
 ### How does WANDERER help?
 <br>
 This website is of great help to people who are interested in traveling to remote places. It helps tourists to book hotels in new places where tourism is not so developed and provides an overview about the surroundings of that spot. The website helps tourists book their hotels, sort out their overall tour and also provides for the lounge(food and drinks services) for the customers.
@@ -40,6 +41,8 @@ Mainly required contributions:
 <br><br>
 
 <hr>
+<br>
+
 ### List of Contributors:<br>
 
 
