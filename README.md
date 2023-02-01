@@ -1,10 +1,17 @@
 # WANDERER <br>
+Welcome to Wanderer.<br>
+
+## --> Part of Diversion 2k23 Open-source Event
+<br>
+<center><img src="https://github.com/acm-iem/Readme-template/blob/main/Logos/Diversion%20Long%20Logo%20Color.png" width="30%"></center>
+<br>
 ### How does WANDERER help?
 This website is of great help to people who are interested in traveling to remote places. It helps tourists to book hotels in new places where tourism is not so developed and provides an overview about the surroundings of that spot. The website helps tourists book their hotels, sort out their overall tour and also provides for the lounge(food and drinks services) for the customers.
 <br>
 <hr>
+<h2>Domain : Web Development </h2><br>
 
-### How to contribute:
+### Contribution Guidelines:
 
 We welcome all kinds of ideas which will help to develop this website into a more useful one.
 <br>
@@ -14,6 +21,13 @@ We welcome all kinds of ideas which will help to develop this website into a mor
 4. Commit the changes in that branch
 5. Open a pull request
 <hr>
+<br>
+
+Mainly required contributions:
+1. We would like a semi-glitch of icons in the footer of our website be resolved as soon as possible.
+2. Login/Logout of the webpage through MongoDB/pHp
+3. Landing page on android/iOS platform UI can be improved
+4. Resolution of the packages-cards to be replaced with better alternatives.
 
 ### Languages and Tools:
 <img align="left" alt="Visual Studio Code" width="30px" height="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png">
@@ -25,6 +39,8 @@ We welcome all kinds of ideas which will help to develop this website into a mor
 <br><br>
 
 <hr>
+### List of Contributors:
+
 
 ### Site Link:
 
