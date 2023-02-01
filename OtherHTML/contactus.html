@@ -475,7 +475,7 @@
         <!-- <div class="col-xl-5  col-sm-6 col-sm-6" style="border: 1px solid red;"> -->
         <div class="col-xs-6 col-md-4">
           <div class="single-footer-widget">
-            <h6>About Wanderers</h6>
+            <h5 style="font-weight: bold;">About Wanderers</h5>
             <p>
               WE are Wanderers. We help people who are interested in traveling to remote places. We help tourists to
               book hotels in new and unique places where tourism is not so developed, and also ensure that they are
@@ -528,7 +528,8 @@
           <div class="row justify-content-between">
             <div class="col-lg-120">
               <div>
-                <p>© 2020-2021 Wanderer Pvt. Ltd. &nbsp&nbsp<a class="text-primary" data-toggle="modal"
+                <p>&copy; 2020-<span id="copyright"></span> Wanderer Pvt. Ltd. &nbsp&nbsp
+                  <a class="text-primary" data-toggle="modal"
                     data-target="#privacyModal">Privacy</a> · <a class="text-primary" data-toggle="modal"
                     data-target="#termsModal">Terms</a></p>
               </div>
@@ -537,6 +538,10 @@
         </div>
       </div>
   </footer>
+  
+    <!-- footer script -->
+    <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+
 <script>
       wow = new WOW(
         {
