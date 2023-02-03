@@ -9,7 +9,6 @@
 ul#footer1{
     position: relative;
     display: flex;
-    gap: 20px;
 }
 
 ul#footer1 li{
@@ -39,7 +38,6 @@ ul#footer1 li:hover{
 }
 
 ul#footer1 li:hover a{
-    font-size: 3em;
     filter: drop-shadow(0 0 20px var(--clr)) drop-shadow(0 0 40px var(--clr)) drop-shadow(0 0 60px var(--clr));
 
 }
