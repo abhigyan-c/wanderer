@@ -1,269 +1,269 @@
 #a2 {
-    color: white;
-    font-weight: 600;
-  }
-  
-  #a2:hover {
-    color: #FF7900;
-    background-color: black;
-    border-radius: 10%;
-  }
-  
-  #imganc{
-  color: white;
-  }
-  
-  #imganc:hover {
-  color: #FF7900;
-  background-color: #5865f2;
-  }
-  
-  #header{
-      width: 100%;
-      background: linear-gradient(#000080 0%, #5865f2 100%);
-  }
-  
-  #toggle1{
-      border-color: black;
-      opacity: 100%;
-  }
-  
-  #button1{
-      background-color: orange;
-      color: #5865f2;
-      font-weight: 500;
-  }
-  
-  #button1:hover {
-    background-color: #5865f2; 
-    color: orange;
-    font-weight: 800;
-  }
-  
-  .sec1 {
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    pointer-events: none;
-  }
-  
-  .sec2 {
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-  }
-  .head1 {
-    font-family: 'Roboto', sans-serif;
-    color: rebeccapurple;
-    font-size: 20px;
-    font-weight: 200;
-  }
-  @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-  }
-  
-  div.gallery {
-  border: 1px solid #ccc;
-  }
-  
-  div.gallery:hover {
-  border: 1px solid #777;
-  }
-  
-  div.gallery img {
-  width: 100%;
-  height: auto;
-  }
-  
-  div.desc {
-  padding: 15px;
-  text-align: center;
-  }
-  
-  * {
-  box-sizing: border-box;
-  }
-  
-  .responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-  }
-  
-  @media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-  }
-  
-  @media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-  }
-  
-  .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-  }
-  
-  .vidcont {
-  position: relative;
-  }
-  
-  .vidcont video {
-  position: relative;
-  z-index : 0;
-  }
-  
-  .overlay {
-    position:absolute;
-    top:30%;
-    left: 20%;
-    z-index:1;
-  }
-  
-  .vidtext {
-  color: lightcyan;
-  font-size: 7vw;
-  align-self: center;
-  pointer-events: none;
-  }
-  
-  #logostyle {
-     border-radius: 25% 15% 20% 15%;
-  }
-  
-  /* width */
-  ::-webkit-scrollbar {
-  width: 15px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-  background: lightcyan;
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-  background: darkcyan;
-  border-radius: 10px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-  background: #FF7900;
-  }
-  
-  .customCursor{
-  cursor: url(cursor.png), auto;
-  }
-
-  #f1{
-    background-color: lightgreen;
-    font-weight: 500;
-    margin-right: auto;
-    margin-left: auto;
-    }
-    .about{
-    font-size: 4vw;
-    font-family: Cambria;
-    font-weight: 400;
-    color: black;
-    }
-
-   .carousel-indicators li {
-      height: 10px;
-      width: 10px;
-      border-radius: 50%;
-    }
-
-    .modal-content {
-      background-image: url(../Images/footerbg.png);
-    }
-
-    .text {
-      padding: 40px;
-      background: #eee;
-    }
-
-    .text h3 {
-      text-align: center;
-      text-transform: uppercase;
-      font-size: 30px;
-      padding: 10px;
-    }
-
-    .banner-container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .banner-container .banner {
-      background: linear-gradient(-55deg, #5865f2 29%, #FF7900 29.1%, #FF7900 68%, #5865f2 68.1%);
-      border-radius: 5px;
-      margin: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-      box-shadow: 0 5px 10px #0005;
-      overflow: hidden;
-    }
-
-    .banner-container .banner .content {
-      flex: 1 1 250px;
-      text-align: center;
-      padding: 50px;
-      text-transform: uppercase;
-    }
-
-    .banner-container .banner .content span {
-      color: #eee;
-      font-size: 25px;
-    }
-
-    .banner-container .banner .content h3 {
-      color: #fff;
-      font-size: 40px;
-    }
-
-    .banner-container .banner .content p {
-      color: #eee;
-      font-size: 20px;
-      padding: 10px 0;
-    }
-
-    .banner-container .banner .content .btn {
-      display: block;
-      height: 40px;
-      width: 150px;
-      line-height: 40px;
-      background: #fff;
-      color: #d63031;
-      margin: 5px auto;
-      text-decoration: none;
-    }
-
-#a3{
-  font-size: 30px;
-  color: #304ed6;
-  padding:4px;
+	color: white;
+	font-weight: 600;
 }
 
-h5{
-  font-weight: bold;
-  font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  padding: 2px;
+#a2:hover {
+	color: #ff7900;
+	background-color: black;
+	border-radius: 10%;
+}
+
+#imganc {
+	color: white;
+}
+
+#imganc:hover {
+	color: #ff7900;
+	background-color: #5865f2;
+}
+
+#header {
+	width: 100%;
+	background: linear-gradient(#000080 0%, #5865f2 100%);
+}
+
+#toggle1 {
+	border-color: black;
+	opacity: 100%;
+}
+
+#button1 {
+	background-color: orange;
+	color: #5865f2;
+	font-weight: 500;
+}
+
+#button1:hover {
+	background-color: #5865f2;
+	color: orange;
+	font-weight: 800;
+}
+
+.sec1 {
+	animation: fadeInAnimation ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	pointer-events: none;
+}
+
+.sec2 {
+	animation: fadeInAnimation ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+.head1 {
+	font-family: "Roboto", sans-serif;
+	color: rebeccapurple;
+	font-size: 20px;
+	font-weight: 200;
+}
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+div.gallery {
+	border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.responsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+	.responsive {
+		width: 49.99999%;
+		margin: 6px 0;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.responsive {
+		width: 100%;
+	}
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.vidcont {
+	position: relative;
+}
+
+.vidcont video {
+	position: relative;
+	z-index: 0;
+}
+
+.overlay {
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	z-index: 1;
+}
+
+.vidtext {
+	color: lightcyan;
+	font-size: 7vw;
+	align-self: center;
+	pointer-events: none;
+}
+
+#logostyle {
+	border-radius: 25% 15% 20% 15%;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: lightcyan;
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: darkcyan;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #ff7900;
+}
+
+.customCursor {
+	cursor: url(cursor.png), auto;
+}
+
+#f1 {
+	background-color: lightgreen;
+	font-weight: 500;
+	margin-right: auto;
+	margin-left: auto;
+}
+.about {
+	font-size: 4vw;
+	font-family: Cambria;
+	font-weight: 400;
+	color: black;
+}
+
+.carousel-indicators li {
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+}
+
+.modal-content {
+	background-image: url(../Images/footerbg.png);
+}
+
+.text {
+	padding: 40px;
+	background: #eee;
+}
+
+.text h3 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.banner-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.banner-container .banner {
+	background: linear-gradient(-55deg, #5865f2 29%, #ff7900 29.1%, #ff7900 68%, #5865f2 68.1%);
+	border-radius: 5px;
+	margin: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	box-shadow: 0 5px 10px #0005;
+	overflow: hidden;
+}
+
+.banner-container .banner .content {
+	flex: 1 1 250px;
+	text-align: center;
+	padding: 50px;
+	text-transform: uppercase;
+}
+
+.banner-container .banner .content span {
+	color: #eee;
+	font-size: 25px;
+}
+
+.banner-container .banner .content h3 {
+	color: #fff;
+	font-size: 40px;
+}
+
+.banner-container .banner .content p {
+	color: #eee;
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+.banner-container .banner .content .btn {
+	display: block;
+	height: 40px;
+	width: 150px;
+	line-height: 40px;
+	background: #fff;
+	color: #d63031;
+	margin: 5px auto;
+	text-decoration: none;
+}
+
+#a3 {
+	font-size: 30px;
+	color: #304ed6;
+	padding: 4px;
+}
+
+h5 {
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+	padding: 2px;
 }
