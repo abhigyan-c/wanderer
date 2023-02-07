@@ -1,49 +1,48 @@
-
 @media screen and (prefers-reduced-motion: no-preference) {
-    html {
-      scroll-behavior: smooth;
-    }
-  }
-
-#a2 {
-    color: white;
-    font-weight: 600;
-  }
-
-  #a2:hover {
-    color: #FF7900;
-    background-color: black;
-    border-radius: 10%;
-  }
-
-.pkg_head{
-  font-family: Monaco;
-  font-weight: bold;
-  font-size: 20px !important;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 3px;
-  color: orange !important;
+	html {
+		scroll-behavior: smooth;
+	}
 }
 
-#imganc{
-  color: white;
+#a2 {
+	color: white;
+	font-weight: 600;
+}
+
+#a2:hover {
+	color: #ff7900;
+	background-color: black;
+	border-radius: 10%;
+}
+
+.pkg_head {
+	font-family: Monaco;
+	font-weight: bold;
+	font-size: 20px !important;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 3px;
+	color: orange !important;
+}
+
+#imganc {
+	color: white;
 }
 
 #imganc:hover {
-  color: #FF7900;
-  background-color: transparent;
+	color: #ff7900;
+	background-color: transparent;
 }
 
-  #header{
-      width: 100%;
-      background: linear-gradient(#000080 0%, #5865f2 100%);
-  }
+#header {
+	width: 100%;
+	background: linear-gradient(#000080 0%, #5865f2 100%);
+}
 
-  #toggle1{
-      border-color: black;
-      opacity: 100%;
-  }
+#toggle1 {
+	border-color: black;
+	opacity: 100%;
+}
 
   #button1{
       background-color: orange;
@@ -59,94 +58,94 @@
     border: none;
   }
 
-  .sec1 {
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    pointer-events: none;
+.sec1 {
+	animation: fadeInAnimation ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+	pointer-events: none;
 }
 
 .sec2 {
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+	animation: fadeInAnimation ease 3s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
 }
 .head1 {
-    font-family: 'Roboto', sans-serif;
-    color: rebeccapurple;
-    font-size: 20px;
-    font-weight: 200;
+	font-family: "Roboto", sans-serif;
+	color: rebeccapurple;
+	font-size: 20px;
+	font-weight: 200;
 }
 @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 div.gallery {
-  border: 1px solid #ccc;
+	border: 1px solid #ccc;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+	border: 1px solid #777;
 }
 
 div.gallery img {
-  width: 100%;
-  height: auto;
+	width: 100%;
+	height: auto;
 }
 
 div.desc {
-  padding: 15px;
-  text-align: justify;
+	padding: 15px;
+	text-align: justify;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 .responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
 }
 
 @media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
+	.responsive {
+		width: 49.99999%;
+		margin: 6px 0;
+	}
 }
 
 @media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
+	.responsive {
+		width: 100%;
+	}
 }
 
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .vidcont {
-  position: relative;
+	position: relative;
 }
 
 .vidcont video {
-  position: relative;
-  z-index : 0;
+	position: relative;
+	z-index: 0;
 }
 
 .overlay {
-    position:absolute;
-    top:30%;
-    left: 20%;
-    z-index:1;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	z-index: 1;
 }
 
 .vidtext {
@@ -158,12 +157,12 @@ div.desc {
 }
 
 #logostyle {
-     border-radius: 25% 15% 20% 15%;
+	border-radius: 25% 15% 20% 15%;
 }
 
 /* width */
 ::-webkit-scrollbar {
-  width: 15px;
+	width: 15px;
 }
 
 /* Track */
@@ -181,80 +180,79 @@ div.desc {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #FF7900;
+	background: #ff7900;
 }
 
-.customCursor{
-  cursor: url(../Images/cursor.png), auto;
+.customCursor {
+	cursor: url(../Images/cursor.png), auto;
 }
 
 .img-wrapper {
-  position: relative;
-  overflow: hidden;
+	position: relative;
+	overflow: hidden;
 }
 
 .img-wrapper > img {
-  display: block;
-  width: 100%;
-  aspect-ratio: 3 / 2;
-  object-fit: cover;
-  object-position: center;
+	display: block;
+	width: 100%;
+	aspect-ratio: 3 / 2;
+	object-fit: cover;
+	object-position: center;
 }
 
 .img-wrapper > .content {
-  position: absolute;
-  inset: 0;
-  font-size: 2rem;
-  padding: 1rem;
-  background: rgba(255, 255, 255, .4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	position: absolute;
+	inset: 0;
+	font-size: 2rem;
+	padding: 1rem;
+	background: rgba(255, 255, 255, 0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .img-wrapper > img,
 .img-wrapper > .content {
-  transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
 }
 
 .img-wrapper:hover > img.blur {
-  filter: blur(5px);
+	filter: blur(5px);
 }
 
 .img-wrapper:hover > img.gray {
-  filter: grayscale(1);
+	filter: grayscale(1);
 }
 
 .img-wrapper:hover > img.zoom {
-  transform: scale(1.1);
+	transform: scale(1.1);
 }
-
 
 .img-wrapper > .content.slide-down {
-  transform: translateY(-100%);
+	transform: translateY(-100%);
 }
 .img-wrapper:hover > .content.slide-down {
-  transform: translateY(0);
+	transform: translateY(0);
 }
 
-#f1{
-  background-color: lightgreen;
-  font-weight: 500;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-  width: 100%;
+#f1 {
+	background-color: lightgreen;
+	font-weight: 500;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
 }
-.about{
-  font-size: 4vw;
-  font-family: Cambria;
-  font-weight: 400;
-  color: black;
+.about {
+	font-size: 4vw;
+	font-family: Cambria;
+	font-weight: 400;
+	color: black;
 }
 
-#transparentbox{
-        background-color: rgb(255, 255, 255);
-        opacity: 0.5;
-        padding: 5%;
+#transparentbox {
+	background-color: rgb(255, 255, 255);
+	opacity: 0.5;
+	padding: 5%;
 }

@@ -1,144 +1,147 @@
 body {
-    font-family: "Lato", sans-serif;   
+	font-family: "Lato", sans-serif;
 }
-  
+
 .sidebar {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #5865f2;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #5865f2;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
 }
-  
+
 .sidebar a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #FFF;
-    display: block;
-    transition: 0.3s;
-    font-family: Trebuchet MS;
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #fff;
+	display: block;
+	transition: 0.3s;
+	font-family: Trebuchet MS;
 }
-  
+
 .sidebar a:hover {
-    color: #FF7900;
+	color: #ff7900;
 }
-  
+
 .sidebar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
 }
 
 .nav a {
-    text-decoration: none;
-    padding: 10px 20px;
-    display: block;
-    color: #FFF;
-    text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	color: #fff;
+	text-align: center;
 }
 
 .openbtn {
-    font-size: 50px;
-    cursor: pointer;
-    background-color: #5865f2;
-    color: white;
-    padding: 5px 15px;
-    border: none;
-    position:  fixed;
-    top:  6px;
+	font-size: 50px;
+	cursor: pointer;
+	background-color: #5865f2;
+	color: white;
+	padding: 5px 15px;
+	border: none;
+	position: fixed;
+	top: 6px;
 }
-  
+
 .openbtn:hover {
-    background-color: #FF7900;
+	background-color: #ff7900;
 }
 
 .openbtn:focus {
-    outline: none;
+	outline: none;
 }
-  
+
 #main {
-    transition: margin-left .5s;
-    padding: 16px;
+	transition: margin-left 0.5s;
+	padding: 16px;
 }
 
 .signin {
-    display:  flex;
-    font-size: 35px;
-    cursor: pointer;
-    background-color: #5865f2;
-    color: white;
-    padding: 5px 10px;
-    border: none;
-    position: fixed;
-    right: 200px;
-    top: 6px;
+	display: flex;
+	font-size: 35px;
+	cursor: pointer;
+	background-color: #5865f2;
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	position: fixed;
+	right: 200px;
+	top: 6px;
 }
 
 a.s1 {
-    font-family: Trebuchet MS;
-    color: White;
-    text-decoration: none;
+	font-family: Trebuchet MS;
+	color: White;
+	text-decoration: none;
 }
 
 .signin:hover {
-    background-color: #FF7900;
+	background-color: #ff7900;
 }
 
 .signup {
-    display: flex;
-    font-size: 35px;
-    cursor: pointer;
-    background-color: #5865f2;
-    color: white;
-    padding: 5px 10px;
-    border: none;
-    position: fixed;
-    right: 45px;
-    top: 6px;
+	display: flex;
+	font-size: 35px;
+	cursor: pointer;
+	background-color: #5865f2;
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	position: fixed;
+	right: 45px;
+	top: 6px;
 }
 
 a.s2 {
-    font-family: Trebuchet MS;
-    color: White;
-    text-decoration: none;
+	font-family: Trebuchet MS;
+	color: White;
+	text-decoration: none;
 }
 
 .signup:hover {
-    background-color: #FF7900;
+	background-color: #ff7900;
 }
 
 .sidelist {
-    display:  flex;
-    flex-direction: column;
-    border: none;
-    border-bottom: none;
-    line-height: 3;
-    width: 200px;
-    align-self: center;
+	display: flex;
+	flex-direction: column;
+	border: none;
+	border-bottom: none;
+	line-height: 3;
+	width: 200px;
+	align-self: center;
 }
 
-
 .sidelist a {
-    font-family: Trebuchet MS;
-    font-size: 31px;
-    color: #FFFFFF;
-    text-align: right;
+	font-family: Trebuchet MS;
+	font-size: 31px;
+	color: #ffffff;
+	text-align: right;
 }
 
 .sidelist a:hover {
-    text-decoration: none;
-    color: #FF7900;
+	text-decoration: none;
+	color: #ff7900;
 }
-  
+
 @media screen and (max-height: 450px) {
-    .sidebar {padding-top: 15px;}
-    .sidebar a {font-size: 18px;}
+	.sidebar {
+		padding-top: 15px;
+	}
+	.sidebar a {
+		font-size: 18px;
+	}
 }
