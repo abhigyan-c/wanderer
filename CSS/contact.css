@@ -1,56 +1,56 @@
-.transparentbox{
-    background-color: #d7d1ed;
-    opacity: 0.95;
-    padding: 1rem;
-    border-radius: 1rem;
-    border-top: 5px solid black;
-    box-shadow: 0px 8px 15px #5d5772;
+.transparentbox {
+	background-color: #d7d1ed;
+	opacity: 0.95;
+	padding: 1rem;
+	border-radius: 1rem;
+	border-top: 5px solid black;
+	box-shadow: 0px 8px 15px #5d5772;
 }
 
-#head5{
-    font-family: Montserrat;
-    font-weight: 900;
+#head5 {
+	font-family: Montserrat;
+	font-weight: 900;
 }
 
-body{
-    background-color: #21252917;
+body {
+	background-color: #21252917;
 }
 
-#head3{
-    font-family: Trebuchet MS;
-    font-weight: bold;
+#head3 {
+	font-family: Trebuchet MS;
+	font-weight: bold;
 }
 
 .contactusimg {
-    position: relative;
+	position: relative;
 }
 
 .contactusimg img {
-    position: relative;
-    z-index: 0;
+	position: relative;
+	z-index: 0;
 }
 
 .contactusoverlay {
-    position:absolute;
-    top: 0;
-    left: 0;
-    z-index:1;
-    padding-left: 4%;
-    padding-right: 4%;
-    text-align: justify;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding-left: 4%;
+	padding-right: 4%;
+	text-align: justify;
 }
 
 .contactustext {
-  color: white;
-  font-size: 3.2vw;
-  font-family: 'Montserrat';
-  align-self: left;
-  pointer-events: none;
+	color: white;
+	font-size: 3.2vw;
+	font-family: "Montserrat";
+	align-self: left;
+	pointer-events: none;
 }
 
 .contactusheading {
-    color: white;
-    font-size: 7vw;
-    align-self: left;
-    pointer-events: none;
+	color: white;
+	font-size: 7vw;
+	align-self: left;
+	pointer-events: none;
 }
