@@ -1,636 +1,751 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>WANDERER || TAKDAH</title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" />
+		<link rel="icon" href="../Images/Final_Icon.png" />
+		<link rel="stylesheet" href="../CSS/ladakh.css" />
+		<link rel="stylesheet" href="../CSS/other_requisites.css" />
+		<link rel="stylesheet" href="../CSS/trial_icons.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+	</head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WANDERER || TAKDAH</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
-  <link rel="icon" href="../Images/Final_Icon.png">
-  <link rel="stylesheet" href="../CSS/ladakh.css">
-  <link rel="stylesheet" href="../CSS/other_requisites.css">
-  <link rel="stylesheet" href="../CSS/trial_icons.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
+	<body class="customCursor" style="padding-top: 130px">
+		<nav class="navbar fixed-top navbar-expand-lg navbar-light" id="header">
+			<a class="navbar-brand" href="#" id="imganc"><img id="logostyle" src="../Images/Final_Logo.png" height="100" width="100" /></a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+				id="toggle1"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="../HTML/index.html" id="a2">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../OtherHTML/about.html" id="a2">About</a>
+					</li>
 
-<body class="customCursor" style="padding-top: 130px;">
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="header">
-    <a class="navbar-brand" href="#" id="imganc"><img id="logostyle" src="../Images/Final_Logo.png" height="100"
-        width="100"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="toggle1">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="../HTML/index.html" id="a2">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../OtherHTML/about.html" id="a2">About</a>
-        </li>
+					<li class="nav-item dropdown">
+						<a
+							class="nav-link dropdown-toggle"
+							href="#"
+							role="button"
+							data-toggle="dropdown"
+							aria-haspopup="true"
+							aria-expanded="false"
+							id="a2"
+						>
+							Packages
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="rajasthan.html">Rajasthan</a>
+							<a class="dropdown-item" href="ladakh.html">Ladakh</a>
+							<a class="dropdown-item" href="coorg.html">Coorg</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="../OtherHTML/package.html">See all Packages</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="../OtherHTML/contactus.html" id="a2">Contact Us</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<button
+						class="btn btn-outline-success my-2 my-sm-0"
+						type="button"
+						id="button1"
+						onclick="window.location.href = '../OtherHTML/login.html';"
+					>
+						Log In
+					</button>
+				</form>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+						<ol id="myCarousel-indicators" class="carousel-indicators">
+							<li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+							<li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+						</ol>
+						<div class="carousel-inner">
+							<div class="carousel-item active" data-bs-interval="10000">
+								<img src="../new_imgs/takdah_c2.jpg" class="d-block w-100" height="422" alt="..." />
+							</div>
+							<div class="carousel-item" data-bs-interval="10000">
+								<img src="../new_imgs/takdah_c3.jpg" class="d-block w-100" height="422" alt="..." />
+							</div>
+							<div class="carousel-item" data-bs-interval="10000">
+								<img src="../new_imgs/takdah_c4.jpg" class="d-block w-100" alt="..." height="422" />
+							</div>
+							<div class="carousel-item" data-bs-interval="10000">
+								<img src="../new_imgs/takdah_c5.jpg" class="d-block w-100" alt="..." height="422" />
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-3 wow pulse animated">
+					<div class="banner-container">
+						<div class="banner">
+							<div class="content">
+								<span>best</span>
+								<h3>resort experience</h3>
+								<p>at the heart of nature</p>
+								<a href="../Forms/form_Takdah.html" class="btn">book now</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br /><br />
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false" id="a2">
-            Packages
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="rajasthan.html">Rajasthan</a>
-            <a class="dropdown-item" href="ladakh.html">Ladakh</a>
-            <a class="dropdown-item" href="coorg.html">Coorg</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="../OtherHTML/package.html">See all Packages</a>
+		<div class="container">
+			<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+				<li class="nav-item">
+					<a
+						class="nav-link active"
+						id="pills-home-tab"
+						data-toggle="pill"
+						href="#description"
+						role="tab"
+						aria-controls="pills-home"
+						aria-selected="true"
+						><b>HISTORY</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						id="pills-profile-tab"
+						data-toggle="pill"
+						href="#highlight"
+						role="tab"
+						aria-controls="pills-profile"
+						aria-selected="false"
+						><b>ITINERARY</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						id="pills-contact-tab"
+						data-toggle="pill"
+						href="#hotels"
+						role="tab"
+						aria-controls="pills-contact"
+						aria-selected="false"
+						><b>HOTELS</b></a
+					>
+				</li>
+				<li class="nav-item">
+					<a
+						class="nav-link"
+						id="pills-contact-tab"
+						data-toggle="pill"
+						href="#how-to-reach"
+						role="tab"
+						aria-controls="pills-end"
+						aria-selected="false"
+						><b>HOW TO REACH</b></a
+					>
+				</li>
+			</ul>
+			<div class="tab-content" id="pills-tabContent">
+				<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="pills-home-tab">
+					<br />
+					<h3>About Takdah</h3>
+					<br />
+					<p>
+						Takdah Cantonment, as the name suggests, was a British cantonment in India prior to independence. Many British officers of
+						high rank from all throughout India travelled there. Takdah, like many other towns and villages, was abandoned by the new
+						regime after independence. It was only recently that people began to settle in the area. Though the British are long gone, the
+						spectacular structures built during the British era can still be found. Takdah's masterpiece is located in an old, abandoned
+						club building about a kilometre from town. In comparison to its surroundings, the town is higher in elevation, giving place to
+						cedar trees, and it is significantly cooler.
+					</p>
+				</div>
+				<div class="tab-pane fade" id="highlight" role="tabpanel" aria-labelledby="pills-profile-tab">
+					<br />
+					<p></p>
+					<h3 id="a3">Day 1</h3>
 
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../OtherHTML/contactus.html" id="a2">Contact Us</a>
-        </li>
+					<h5>Arrival at Takdah</h5>
 
+					You will be transferred to the hotel and checked in upon arrival at NJP station, to Takdah Heritage Colonial Bungalow No. 12.
+					Overnight stay with dinner and snacks. <br />
 
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="button1"
-          onclick="window.location.href = '../OtherHTML/login.html';">Log In</button>
-      </form>
-    </div>
+					<h3 id="a3">Day 2</h3>
 
-  </nav>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-9">
-        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
-          <ol id="myCarousel-indicators" class="carousel-indicators">
-            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-            <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img src="../new_imgs/takdah_c2.jpg" class="d-block w-100" height="422" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="10000">
-              <img src="../new_imgs/takdah_c3.jpg" class="d-block w-100" height="422" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval="10000">
-              <img src="../new_imgs/takdah_c4.jpg" class="d-block w-100" alt="..." height="422">
-            </div>
-            <div class="carousel-item" data-bs-interval="10000">
-              <img src="../new_imgs/takdah_c5.jpg" class="d-block w-100" alt="..." height="422">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-      <div class="col-md-3 wow pulse animated">
-        <div class="banner-container">
-          <div class="banner">
-            <div class="content">
-              <span>best</span>
-              <h3>resort experience</h3>
-              <p>at the heart of nature</p>
-              <a href="../Forms/form_Takdah.html" class="btn">book now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br><br>
+					<h5>Takdah Tour</h5>
+					Breakfast at 9, then we leave for sightseeing. Takdah is home to some of the most scenic tea gardens in the Darjeeling area. You
+					may walk down to some of them or take a local taxi trip to explore the tea gardens on rolling hills. Takdah's principal tea
+					estates include Rungli Rungliot, Gielle, Namring, Jinglam, Poomong, and Teesta Valley. You may also go to the estate factories and
+					observe the tea being made (in the factories usually remain closed). The Gielle Bhanjyang Bazaar, commonly known as Gandhi Chowk,
+					is located further down from Rungli Rungliot. There used to be a statue of Mahatma Gandhi here, but it is no longer there. This is
+					where Jinglam Tea Estate and Gielle Tea Estate meet. Lunch at a hotel nearby. Then we proceed to the monastery. Takdah has a small
+					monastery called Dechhen Pema Tshoiling Monastery, but it is more commonly known as Takdah Monastery. Following the market area, a
+					steep uphill boulder road leads to a steep stairs. To get to the Monastery, you'll have to ascend several flights of stairs. The
+					Lovers Meet Viewpoint, located on Peshok Road about 10 kilometres below Lamahatta, is a beautiful site to visit by automobile. You
+					may get a great view of Triveni, which is the confluence of the rivers Teesta and Rangeet. The confluence is near Melli and is
+					accessible via Melli. Teesta White Water Rafting is common in this sandy delta formation. We reach view point at sunset by 5:30
+					pm. Then we return to our bungalow by 7 pm. Snacks and dinner at the hotel. <br />
 
-  <div class="container">
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-      <li class="nav-item">
-        <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#description" role="tab"
-          aria-controls="pills-home" aria-selected="true"><b>HISTORY</b></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#highlight" role="tab"
-          aria-controls="pills-profile" aria-selected="false"><b>ITINERARY</b></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#hotels" role="tab"
-          aria-controls="pills-contact" aria-selected="false"><b>HOTELS</b></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#how-to-reach" role="tab"
-          aria-controls="pills-end" aria-selected="false"><b>HOW TO REACH</b></a>
-      </li>
-    </ul>
-    <div class="tab-content" id="pills-tabContent">
-      <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="pills-home-tab">
-        <br>
-        <h3>About Takdah</h3><br>
-        <p>
-          Takdah Cantonment, as the name suggests, was a British cantonment in India prior to independence. Many British
-          officers of high rank from all throughout India travelled there. Takdah, like many other towns and villages,
-          was abandoned by the new regime after independence. It was only recently that people began to settle in the
-          area. Though the British are long gone, the spectacular structures built during the British era can still be
-          found. Takdah's masterpiece is located in an old, abandoned club building about a kilometre from town. In
-          comparison to its surroundings, the town is higher in elevation, giving place to cedar trees, and it is
-          significantly cooler.
-        </p>
-      </div>
-      <div class="tab-pane fade" id="highlight" role="tabpanel" aria-labelledby="pills-profile-tab">
-        <br>
-        <P>
-        <h3 id="a3">Day 1 </h3>
+					<h3 id="a3">Day 3</h3>
 
-        <h5>Arrival at Takdah</h5>
+					<h5>Takdah tour part II</h5>
 
-        You will be transferred to the hotel and checked in upon arrival at NJP station, to Takdah Heritage Colonial
-        Bungalow No. 12. Overnight stay with dinner and snacks. <br>
+					We leave early after breakfast for the view of the fresh orchids. Takdah features a fantastic Orchid Center that spans a large
+					area. It's about a half-kilometer walk from the market area to the 6th mile. Many different types of exotic and colourful
+					Himalayan Orchids are developed and grown here. Many visitors travel to Takdah specifically to see the Orchid Center.Another close
+					destination is Mongpu, where you may see the orchid nurseries, the great poet Rabindranath Tagore's museum, and the large Cinchona
+					plantations. Visit the beautiful orange orchards in Bara and Chota Mangwa (both about 12kms from Takdah). You can get a couple
+					bottles of fresh orange juice from the little companies here. It tastes wonderful and is completely natural. Lunch at silk route
+					restaurant on the way back. Then we visit the Durpin Viewpoint at sunset, which is roughly 10 kilometres from Takdah. The Teesta
+					River meanders through the alpine sceneries, providing a wonderful vista. From here, you may also enjoy a great view of
+					Kanchenjunga. Peshoke Tea Garden Viewpoint is about 14 kilometres away and provides a beautiful view of the tea gardens on the
+					hill slopes. Return to the hotel by 7. The resort facilitates campfire in the evening, so its recommended that you have tea and
+					snacks sitting beside the campfire. Dinner at night. <br />
 
-        <h3 id="a3">Day 2 </h3>
+					<h3 id="a3">Day 4</h3>
 
-        <h5>Takdah Tour</h5>
-        Breakfast at 9, then we leave for sightseeing. Takdah is home to some of the most scenic tea gardens in the
-        Darjeeling area. You may walk down to some of them or take a local taxi trip to explore the tea gardens on
-        rolling hills. Takdah's principal tea estates include Rungli Rungliot, Gielle, Namring, Jinglam, Poomong, and
-        Teesta Valley. You may also go to the estate factories and observe the tea being made (in the factories usually
-        remain closed). The Gielle Bhanjyang Bazaar, commonly known as Gandhi Chowk, is located further down from Rungli
-        Rungliot. There used to be a statue of Mahatma Gandhi here, but it is no longer there. This is where Jinglam Tea
-        Estate and Gielle Tea Estate meet. Lunch at a hotel nearby. Then we proceed to the monastery. Takdah has a small
-        monastery called Dechhen Pema Tshoiling Monastery, but it is more commonly known as Takdah Monastery. Following
-        the market area, a steep uphill boulder road leads to a steep stairs. To get to the Monastery, you'll have to
-        ascend several flights of stairs. The Lovers Meet Viewpoint, located on Peshok Road about 10 kilometres below
-        Lamahatta, is a beautiful site to visit by automobile. You may get a great view of Triveni, which is the
-        confluence of the rivers Teesta and Rangeet. The confluence is near Melli and is accessible via Melli. Teesta
-        White Water Rafting is common in this sandy delta formation. We reach view point at sunset by 5:30 pm. Then we
-        return to our bungalow by 7 pm. Snacks and dinner at the hotel. <br>
+					<h5>Depart</h5>
+					Time to say goodbye to the short, yet wonderful trip at Takdah. Hope you had a great time. We drop you at the NJP station by noon
+					time. Have a safe journey homewards.
+				</div>
+				<div class="tab-pane fade" id="hotels" role="tabpanel" aria-labelledby="pills-contact-tab">
+					<b>
+						<h3>Takdah Heritage Colonial Bungalow :</h3>
+					</b>
+					<p>
+						Takdah Heritage Colonial Bungalow No.12 used to be a British Army officers Bunglow, Built on 1911 at Takdah Cantonment,
+						Darjeeling.It is located in the lap of Pine forest away from the town yet it is well connected with road links. This Heritage
+						bunglow is now a luxurious resort with all modern amenities wall mounted LEDs, spring beds, fully furnished rooms, western
+						washrooms with tub and hot water. A conferencing hall for business meetings, green lawn in the front, backyard gardens and
+						fresh water stream nearby are added bonanza for spending treasured vacations. <br />
+						<b
+							>**The most fascinating fact is that there is no hotel or shop or market within 7 km radius of this hotel... All you have
+							is the bungalow surrounded by hills and woods. So we recommend you to take a stroll in the woods in the evening with your
+							tour members, to enjoy a silent yet thrilling and romantic atmosphere.</b
+						>
+					</p>
+				</div>
+				<div class="tab-pane fade" id="how-to-reach" role="tabpanel" aria-labelledby="pills-end-tab">
+					<br />
+					<ul>
+						<li>
+							<b
+								>Takdah is around 60 kilometres from NJP (the nearest railhead) and Bagdogra (the nearest airport) Takdah is around
+								2.5-3 hours by road from NJP or Bagdogra Siliguri. The nearest town is approximately 52 kilometres from Takdah,
+								Darjeeling is approximately 28 kilometres away (about 1.5 hours by driving), and Kalimpong is approximately 40
+								kilometres away (2 hours).</b
+							>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<br />
+		<hr />
+		<br />
+		<div style="align-items: right; margin-left: 80%">
+			<button type="button" class="btn btn-success">Confirm Package NOW</button>
+		</div>
+		<button
+			onclick="topFunction()"
+			id="myBtn"
+			title="Go to top"
+			style="position: fixed; bottom: 20px; right: 30px; color: #ff7900; background-color: #5865f2; border-radius: 100%; opacity: 80%"
+		>
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+				<path
+					d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"
+				/>
+			</svg>
+		</button>
+		<hr />
+		<footer class="footer-area section_gap" style="padding: 3% 1% 1% 1%" id="f1">
+			<section>
+				<div class="modal fade" id="privacyModal" tabindex="-1" role="dialog" aria-labelledby="privacyModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered scrollable">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="privacyModalLabel">PRIVACY</h5>
+							</div>
+							<hr color="black" width="90%" />
+							<div class="modal-body">
+								<h1>Privacy Policy</h1>
+								<p>Last updated: March 19, 2022</p>
+								<p>
+									This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your
+									information when You use the Service and tells You about Your privacy rights and how the law protects You.
+								</p>
+								<h1>Collecting and Using Your Personal Data</h1>
+								<h2>Types of Data Collected</h2>
+								<h3>Personal Data</h3>
+								<p>
+									While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be
+									used to contact or identify You. Personally identifiable information may include, but is not limited to:
+								</p>
+								<ul>
+									<li>
+										<p>Email address</p>
+									</li>
+									<li>
+										<p>First name and last name</p>
+									</li>
+									<li>
+										<p>Phone number</p>
+									</li>
+									<li>
+										<p>Usage Data</p>
+									</li>
+								</ul>
 
-        <h3 id="a3">Day 3 </h3>
+								<h2>Use of Your Personal Data</h2>
+								<p>The Company may use Personal Data for the following purposes:</p>
+								<ul>
+									<li>
+										<p><strong>To provide and maintain our Service</strong>, including to monitor the usage of our Service.</p>
+									</li>
+									<li>
+										<p>
+											<strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The
+											Personal Data You provide can give You access to different functionalities of the Service that are
+											available to You as a registered user.
+										</p>
+									</li>
+									<li>
+										<p>
+											<strong>For the performance of a contract:</strong> the development, compliance and undertaking of the
+											purchase contract for the products, items or services You have purchased or of any other contract with Us
+											through the Service.
+										</p>
+									</li>
+									<li>
+										<p>
+											<strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent forms
+											of electronic communication, such as a mobile application's push notifications regarding updates or
+											informative communications related to the functionalities, products or contracted services, including the
+											security updates, when necessary or reasonable for their implementation.
+										</p>
+									</li>
+									<li>
+										<p>
+											<strong>To provide You</strong> with news, special offers and general information about other goods,
+											services and events which we offer that are similar to those that you have already purchased or enquired
+											about unless You have opted not to receive such information.
+										</p>
+									</li>
+									<li>
+										<p><strong>To manage Your requests:</strong> To attend and manage Your requests to Us.</p>
+									</li>
+									<li>
+										<p>
+											<strong>For business transfers:</strong> We may use Your information to evaluate or conduct a merger,
+											divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our
+											assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which
+											Personal Data held by Us about our Service users is among the assets transferred.
+										</p>
+									</li>
+									<li>
+										<p>
+											<strong>For other purposes</strong>: We may use Your information for other purposes, such as data
+											analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to
+											evaluate and improve our Service, products, services, marketing and your experience.
+										</p>
+									</li>
+								</ul>
+								<p>We may share Your personal information in the following situations:</p>
+								<ul>
+									<li>
+										<strong>With Service Providers:</strong> We may share Your personal information with Service Providers to
+										monitor and analyze the use of our Service, to contact You.
+									</li>
+									<li>
+										<strong>For business transfers:</strong> We may share or transfer Your personal information in connection
+										with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a
+										portion of Our business to another company.
+									</li>
+									<li>
+										<strong>With Affiliates:</strong> We may share Your information with Our affiliates, in which case we will
+										require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other
+										subsidiaries, joint venture partners or other companies that We control or that are under common control with
+										Us.
+									</li>
+									<li>
+										<strong>With business partners:</strong> We may share Your information with Our business partners to offer You
+										certain products, services or promotions.
+									</li>
+									<li>
+										<strong>With other users:</strong> when You share personal information or otherwise interact in the public
+										areas with other users, such information may be viewed by all users and may be publicly distributed outside.
+									</li>
+									<li>
+										<strong>With Your consent</strong>: We may disclose Your personal information for any other purpose with Your
+										consent.
+									</li>
+								</ul>
+								<h2>Retention of Your Personal Data</h2>
+								<p>
+									The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this
+									Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal
+									obligations (for example, if we are required to retain your data to comply with applicable laws), resolve
+									disputes, and enforce our legal agreements and policies.
+								</p>
 
-        <h5>Takdah tour part II</h5>
+								<h2>Transfer of Your Personal Data</h2>
+								<p>
+									Your information, including Personal Data, is processed at the Company's operating offices and in any other places
+									where the parties involved in the processing are located. It means that this information may be transferred to —
+									and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction
+									where the data protection laws may differ than those from Your jurisdiction.
+								</p>
+								<p>
+									Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to
+									that transfer.
+								</p>
+								<h2>Security of data</h2>
+								<p>
+									The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in
+									accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a
+									country unless there are adequate controls in place including the security of Your data and other personal
+									information.
+								</p>
 
-        We leave early after breakfast for the view of the fresh orchids. Takdah features a fantastic Orchid Center that
-        spans a large area. It's about a half-kilometer walk from the market area to the 6th mile. Many different types
-        of exotic and colourful Himalayan Orchids are developed and grown here. Many visitors travel to Takdah
-        specifically to see the Orchid Center.Another close destination is Mongpu, where you may see the orchid
-        nurseries, the great poet Rabindranath Tagore's museum, and the large Cinchona plantations.
-        Visit the beautiful orange orchards in Bara and Chota Mangwa (both about 12kms from Takdah). You can get a
-        couple bottles of fresh orange juice from the little companies here. It tastes wonderful and is completely
-        natural. Lunch at silk route restaurant on the way back. Then we visit the Durpin Viewpoint at sunset, which is
-        roughly 10 kilometres from Takdah. The Teesta River meanders through the alpine sceneries, providing a wonderful
-        vista. From here, you may also enjoy a great view of Kanchenjunga. Peshoke Tea Garden Viewpoint is about 14
-        kilometres away and provides a beautiful view of the tea gardens on the hill slopes. Return to the hotel by 7.
-        The resort facilitates campfire in the evening, so its recommended that you have tea and snacks sitting beside
-        the campfire. Dinner at night. <br>
+								<h1>Links to Other Websites</h1>
+								<p>
+									Our Service may contain links to other websites that are not operated by Us. If You click on a third party link,
+									You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every site
+									You visit.
+								</p>
+								<p>
+									We have no control over and assume no responsibility for the content, privacy policies or practices of any third
+									party sites or services.
+								</p>
+								<h1>Changes to this Privacy Policy</h1>
+								<p>
+									We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy
+									Policy on this page.
+								</p>
+								<p>
+									We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective
+									and update the &quot;Last updated&quot; date at the top of this Privacy Policy.
+								</p>
+								<h1>Contact Us</h1>
+								<p>If you have any questions about this Privacy Policy, You can contact us:</p>
+								<ul>
+									<li>
+										By visiting this page on our website:
+										<a
+											href="https://abhigyan-c.github.io/wanderer/OtherHTML/contactus.html"
+											rel="external nofollow noopener"
+											target="_blank"
+											>https://abhigyan-c.github.io/wanderer/OtherHTML/contactus.html</a
+										>
+									</li>
+								</ul>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="termsModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered scrollable" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="termsModalLabel">TERMS</h5>
+							</div>
+							<hr color="black" width="90%" />
+							<div class="modal-body">
+								<h1>TERMS & CONDITIONS</h1>
+								<p>Last updated: March 19, 2022</p>
+								<p>Please read these terms and conditions carefully before using Our Service.</p>
+								<br />
+								<h2>Acknowledgement</h2>
+								<p>
+									These are the Terms and Conditions governing the use of this Service and the agreement that operates between You
+									and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of
+									the Service.
+								</p>
 
-        <h3 id="a3">Day 4</h3>
+								<p>
+									Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and
+									Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.
+								</p>
 
-        <h5>Depart</h5>
-        Time to say goodbye to the short, yet wonderful trip at Takdah. Hope you had a great time. We drop you at the
-        NJP station by noon time. Have a safe journey homewards.
-        </p>
-      </div>
-      <div class="tab-pane fade" id="hotels" role="tabpanel" aria-labelledby="pills-contact-tab">
-        <b>
-          <h3>Takdah Heritage Colonial Bungalow : </h3>
-        </b>
-        <p>
-          Takdah Heritage Colonial Bungalow No.12 used to be a British Army officers Bunglow, Built on 1911 at Takdah
-          Cantonment, Darjeeling.It is located in the lap of Pine forest away from the town yet it is well connected
-          with road links. This Heritage bunglow is now a luxurious resort with all modern amenities wall mounted LEDs,
-          spring beds, fully furnished rooms, western washrooms with tub and hot water. A conferencing hall for business
-          meetings, green lawn in the front, backyard gardens and fresh water stream nearby are added bonanza for
-          spending treasured vacations. <br> <b>**The most fascinating fact is that there is no hotel or shop or market
-            within 7 km radius of this hotel... All you have is the bungalow surrounded by hills and woods. So we
-            recommend you to take a stroll in the woods in the evening with your tour members, to enjoy a silent yet
-            thrilling and romantic atmosphere.</b>
-        </p>
-      </div>
-      <div class="tab-pane fade" id="how-to-reach" role="tabpanel" aria-labelledby="pills-end-tab"><br>
-        <ul>
-          <li>
-            <b>Takdah is around 60 kilometres from NJP (the nearest railhead) and Bagdogra (the nearest airport) Takdah
-              is around 2.5-3 hours by road from NJP or Bagdogra Siliguri. The nearest town is approximately 52
-              kilometres from Takdah, Darjeeling is approximately 28 kilometres away (about 1.5 hours by driving), and
-              Kalimpong is approximately 40 kilometres away (2 hours).</b>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <br>
-  <hr><br>
-  <DIV style="align-items: right; margin-left: 80%;">
-    <button type="button" class="btn btn-success">Confirm Package NOW</button>
-  </DIV>
-  <button onclick="topFunction()" id="myBtn" title="Go to top"
-    style="position: fixed; bottom: 20px; right: 30px; color: #FF7900; background-color: #5865f2; border-radius: 100%; opacity: 80%;">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-      class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
-      <path
-        d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z" />
-    </svg>
-  </button>
-  <hr>
-  <footer class="footer-area section_gap" style="padding: 3% 1% 1% 1%;" id="f1">
-    <section>
-      <div class="modal fade" id="privacyModal" tabindex="-1" role="dialog" aria-labelledby="privacyModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered scrollable">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="privacyModalLabel">PRIVACY</h5>
-            </div>
-            <hr color="black" width="90%">
-            <div class="modal-body">
-              <h1>Privacy Policy</h1>
-              <p>Last updated: March 19, 2022</p>
-              <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your
-                information when You use the Service and tells You about Your privacy rights and how the law protects
-                You.</p>
-              <h1>Collecting and Using Your Personal Data</h1>
-              <h2>Types of Data Collected</h2>
-              <h3>Personal Data</h3>
-              <p>While using Our Service, We may ask You to provide Us with certain personally identifiable information
-                that can be used to contact or identify You. Personally identifiable information may include, but is not
-                limited to:</p>
-              <ul>
-                <li>
-                  <p>Email address</p>
-                </li>
-                <li>
-                  <p>First name and last name</p>
-                </li>
-                <li>
-                  <p>Phone number</p>
-                </li>
-                <li>
-                  <p>Usage Data</p>
-                </li>
-              </ul>
+								<p>
+									By using our website Wanderer, you agree to the terms of this Agreement on behalf of yourself and all other
+									persons who use Wanderer under your account. If you do not accept the terms of this Agreement, then you may not
+									use our services.
+								</p>
+								<h2>Acknowledgement</h2>
+								<p>
+									When You create an account with Us, You must provide Us information that is accurate, complete, and current at all
+									times. Failure to do so constitutes a breach of the Terms, which may result in immediate termination of Your
+									account on Our Service.
+								</p>
 
-              <h2>Use of Your Personal Data</h2>
-              <p>The Company may use Personal Data for the following purposes:</p>
-              <ul>
-                <li>
-                  <p><strong>To provide and maintain our Service</strong>, including to monitor the usage of our
-                    Service.</p>
-                </li>
-                <li>
-                  <p><strong>To manage Your Account:</strong> to manage Your registration as a user of the Service. The
-                    Personal Data You provide can give You access to different functionalities of the Service that are
-                    available to You as a registered user.</p>
-                </li>
-                <li>
-                  <p><strong>For the performance of a contract:</strong> the development, compliance and undertaking of
-                    the purchase contract for the products, items or services You have purchased or of any other
-                    contract with Us through the Service.</p>
-                </li>
-                <li>
-                  <p><strong>To contact You:</strong> To contact You by email, telephone calls, SMS, or other equivalent
-                    forms of electronic communication, such as a mobile application's push notifications regarding
-                    updates or informative communications related to the functionalities, products or contracted
-                    services, including the security updates, when necessary or reasonable for their implementation.</p>
-                </li>
-                <li>
-                  <p><strong>To provide You</strong> with news, special offers and general information about other
-                    goods, services and events which we offer that are similar to those that you have already purchased
-                    or enquired about unless You have opted not to receive such information.</p>
-                </li>
-                <li>
-                  <p><strong>To manage Your requests:</strong> To attend and manage Your requests to Us.</p>
-                </li>
-                <li>
-                  <p><strong>For business transfers:</strong> We may use Your information to evaluate or conduct a
-                    merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some
-                    or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar
-                    proceeding, in which Personal Data held by Us about our Service users is among the assets
-                    transferred.</p>
-                </li>
-                <li>
-                  <p><strong>For other purposes</strong>: We may use Your information for other purposes, such as data
-                    analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and
-                    to evaluate and improve our Service, products, services, marketing and your experience.</p>
-                </li>
-              </ul>
-              <p>We may share Your personal information in the following situations:</p>
-              <ul>
-                <li><strong>With Service Providers:</strong> We may share Your personal information with Service
-                  Providers to monitor and analyze the use of our Service, to contact You.</li>
-                <li><strong>For business transfers:</strong> We may share or transfer Your personal information in
-                  connection with, or during negotiations of, any merger, sale of Company assets, financing, or
-                  acquisition of all or a portion of Our business to another company.</li>
-                <li><strong>With Affiliates:</strong> We may share Your information with Our affiliates, in which case
-                  we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company
-                  and any other subsidiaries, joint venture partners or other companies that We control or that are
-                  under common control with Us.</li>
-                <li><strong>With business partners:</strong> We may share Your information with Our business partners to
-                  offer You certain products, services or promotions.</li>
-                <li><strong>With other users:</strong> when You share personal information or otherwise interact in the
-                  public areas with other users, such information may be viewed by all users and may be publicly
-                  distributed outside.</li>
-                <li><strong>With Your consent</strong>: We may disclose Your personal information for any other purpose
-                  with Your consent.</li>
-              </ul>
-              <h2>Retention of Your Personal Data</h2>
-              <p>The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in
-                this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with
-                our legal obligations (for example, if we are required to retain your data to comply with applicable
-                laws), resolve disputes, and enforce our legal agreements and policies.</p>
+								<b>
+									<p>
+										You are responsible for safeguarding the password that You use to access the Service and for any activities or
+										actions under Your password, whether Your password is with Our Service or a Third-Party Social Media Service.
+									</p>
+								</b>
 
-              <h2>Transfer of Your Personal Data</h2>
-              <p>Your information, including Personal Data, is processed at the Company's operating offices and in any
-                other places where the parties involved in the processing are located. It means that this information
-                may be transferred to — and maintained on — computers located outside of Your state, province, country
-                or other governmental jurisdiction where the data protection laws may differ than those from Your
-                jurisdiction.</p>
-              <p>Your consent to this Privacy Policy followed by Your submission of such information represents Your
-                agreement to that transfer.</p>
-              <h2>Security of data</h2>
-              <p>The Company will take all steps reasonably necessary to ensure that Your data is treated securely and
-                in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an
-                organization or a country unless there are adequate controls in place including the security of Your
-                data and other personal information.</p>
+								<p>
+									You agree not to disclose Your password to any third party. You must notify Us immediately upon becoming aware of
+									any breach of security or unauthorized use of Your account.
+								</p>
 
-              <h1>Links to Other Websites</h1>
-              <p>Our Service may contain links to other websites that are not operated by Us. If You click on a third
-                party link, You will be directed to that third party's site. We strongly advise You to review the
-                Privacy Policy of every site You visit.</p>
-              <p>We have no control over and assume no responsibility for the content, privacy policies or practices of
-                any third party sites or services.</p>
-              <h1>Changes to this Privacy Policy</h1>
-              <p>We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the
-                new Privacy Policy on this page.</p>
-              <p>We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming
-                effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy.</p>
-              <h1>Contact Us</h1>
-              <p>If you have any questions about this Privacy Policy, You can contact us:</p>
-              <ul>
-                <li>By visiting this page on our website: <a
-                    href="https://abhigyan-c.github.io/wanderer/OtherHTML/contactus.html"
-                    rel="external nofollow noopener"
-                    target="_blank">https://abhigyan-c.github.io/wanderer/OtherHTML/contactus.html</a></li>
-              </ul>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="termsModal" tabindex="-1" role="dialog" aria-labelledby="termsModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered scrollable" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="termsModalLabel">TERMS</h5>
-            </div>
-            <hr color="black" width="90%">
-            <div class="modal-body">
-              <h1>TERMS & CONDITIONS</h1>
-              <p>Last updated: March 19, 2022</p>
-              <p>Please read these terms and conditions carefully before using Our Service.</p>
-              <br>
-              <h2>Acknowledgement</h2>
-              <p>These are the Terms and Conditions governing the use of this Service and the agreement that operates
-                between You and the Company. These Terms and Conditions set out the rights and obligations of all users
-                regarding the use of the Service.</p>
+								<h2>Order Cancellation</h2>
+								<p>
+									We reserve the right to refuse or cancel Your Order at any time for certain reasons including but not limited to:
+								</p>
 
-              <p>Your access to and use of the Service is conditioned on Your acceptance of and compliance with these
-                Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or
-                use the Service.</p>
+								<ul>
+									<li>Packages availability</li>
+									<li>Errors in the description or prices for Packages</li>
+									<li>Errors in Your Order</li>
+								</ul>
 
-              <p>By using our website Wanderer, you agree to the terms of this Agreement on behalf of yourself and all
-                other persons who use Wanderer under your account. If you do not accept the terms of this Agreement,
-                then you may not use our services.</p>
-              <h2>Acknowledgement</h2>
-              <p>When You create an account with Us, You must provide Us information that is accurate, complete, and
-                current at all times. Failure to do so constitutes a breach of the Terms, which may result in immediate
-                termination of Your account on Our Service.</p>
+								<h2>Your Order Cancellation Rights</h2>
+								<p>Any Package you purchase can only be returned or refunded in accordance with these Terms and Conditions.</p>
+								<h2>Payments</h2>
+								<p>Payment can be made through online payment mode called Razorpay.</p>
+								<h2>Links to Other Websites</h2>
+								<p>
+									Our Service may contain links to third-party web sites or services that are not owned or controlled by the
+									Company. The Company has no control over, and assumes no responsibility for, the content, privacy policies, or
+									practices of any third party web sites or services. You further acknowledge and agree that the Company shall not
+									be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in
+									connection with the use of or reliance on any such content, goods or services available on or through any such web
+									sites or services. We strongly advise You to read the terms and conditions and privacy policies of any third-party
+									web sites or services that You visit.
+								</p>
+								<h2>Termination</h2>
+								<p>
+									We may terminate or suspend Your Account immediately, without prior notice or liability, for any reason
+									whatsoever, including without limitation if You breach these Terms and Conditions. Upon termination, Your right to
+									use the Service will cease immediately. If You wish to terminate Your Account, You may simply discontinue using
+									the Service.
+								</p>
+								<h2>Changes to These Terms and Conditions</h2>
+								<p>
+									We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is
+									material We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect.
+									What constitutes a material change will be determined at Our sole discretion.
+								</p>
+								<h2>Contact Us</h2>
+								<p>If you have any questions about this Privacy Policy, You can contact us:</p>
+								<ul>
+									<li>
+										By visiting this page on our website:
+										<a
+											href="https://abhigyan-c.github.io/wanderer/OtherHTML/contactus.html"
+											rel="external nofollow noopener"
+											target="_blank"
+											>https://abhigyan-c.github.io/wanderer/OtherHTML/contactus.html</a
+										>
+									</li>
+									<li>By sending us an email to <a href="mailto:shayan.sengupta2003@gmail.com">Gaz</a></li>
+								</ul>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="servicesModal" tabindex="-1" role="dialog" aria-labelledby="servicesModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="servicesModalLabel">Our Services</h5>
+							</div>
+							<hr color="black" width="90%" />
+							<div class="modal-body">
+								This website is of great help to people who are interested in traveling to remote places. It helps tourists to book
+								hotels in new places where tourism is not so developed and provides an overview about the surroundings of that spot.
+								The website helps tourists book their hotels, sort out their overall tour and also provides for the lounge(food and
+								drinks services) for the customers.
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="teamModal" tabindex="-1" role="dialog" aria-labelledby="teamModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered scrollable" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="teamModalLabel">TEAM MEMBERS</h5>
+							</div>
+							<hr color="black" width="90%" />
+							<div class="modal-body">
+								<h2>We have a proper team with members of various experience in different fields...</h2>
+								<h3>FRONT-END</h3>
+								<p></p>
+								<ul>
+									<li>CSS expertise : <br /><a href="https://github.com/zack-here"> https://github.com/zack-here</a></li>
+									<li>
+										Github expertise & frontend problem solver : <br />
+										<a href="https://github.com/Ritavas1">https://github.com/Ritavas1</a>
+									</li>
+									<li>
+										Content Creator : <br /><a href=" https://github.com/Shankhosuvro-G"> https://github.com/Shankhosuvro-G</a>
+									</li>
+									<li>
+										Frontend developer and animator : <br /><a href="https://github.com/amyra98">https://github.com/amyra98 </a>
+									</li>
+								</ul>
 
-              <b>
-                <p>You are responsible for safeguarding the password that You use to access the Service and for any
-                  activities or actions under Your password, whether Your password is with Our Service or a Third-Party
-                  Social Media Service.</p>
-              </b>
+								<h3>BACK-END</h3>
+								<p></p>
+								<ul>
+									<li>PHP expertise & team-lead : <br /><a href="https://github.com/satatya">https://github.com/satatya</a></li>
+									<li>
+										Github expertise & backend problem solver : <br /><a href="https://github.com/abhigyan-c/"
+											>https://github.com/abhigyan-c/
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal fade" id="partnersModal" tabindex="-1" role="dialog" aria-labelledby="partnersModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-dialog-centered" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="partnersModalLabel">Collaboration with...</h5>
+							</div>
+							<hr color="black" width="90%" />
+							<div class="modal-body">
+								Team Wanderers tries to collaborate with various resorts and hotels to provide customers an amazing vacation at the
+								remote places of India. For example, Dandamani Luxury Resort and Takdah Heritage British Bungalow and many more.
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<div class="container">
+				<div class="row footer-top">
+					<!-- <div class="col-xl-5  col-sm-6 col-sm-6" style="border: 1px solid red;"> -->
+					<div class="col-xs-6 col-md-4">
+						<div class="single-footer-widget">
+							<h5 style="font-weight: bold">About Wanderers</h5>
+							<p>
+								WE are Wanderers. We help people who are interested in traveling to remote places. We help tourists to book hotels in
+								new and unique places where tourism is not so developed, and also ensure that they are provided with most possible
+								services which they expect to receive in a modern day resort.
+							</p>
+						</div>
+					</div>
+					<!-- <div class="col-lg-3 col-md-7 col-sm-6" style="border: 1px solid red;"> -->
+					<div class="col-xs-6 col-md-4" style="text-align: center">
+						<div class="single-footer-widget">
+							<h4>Navigation Links</h4>
+							<div class="row">
+								<ul class="col footer-nav">
+									<a href="../HTML/index.html" target="_blank">Home</a
+									><br />
+									<a class="text-primary" data-toggle="modal" data-target="#servicesModal">Services</a
+									><br />
+									<a href="../OtherHTML/about.html" target="_blank">Project</a
+									><br />
+									<a class="text-primary" data-toggle="modal" data-target="#teamModal">Team Members</a
+									><br />
+									<a class="text-primary" data-toggle="modal" data-target="#partnersModal">Our Partners</a
+									><br />
+									<a href="../OtherHTML/contactus.html" target="_blank">Contact</a
+									><br /><br />
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-4" style="text-align: center">
+						<h3 class="head1">Follow Us On :</h3>
+						<br />
+						<ul id="footer1">
+							<li style="--clr: #5865f2">
+								<a href="https://discord.gg/r92FvjRQCU"><i class="fa-brands fa-discord"></i></a>
+							</li>
+							<li style="--clr: #1877f2">
+								<a href="https://t.me/wanderer_teams"><i class="fa-brands fa-telegram"></i></a>
+							</li>
 
-              <p>You agree not to disclose Your password to any third party. You must notify Us immediately upon
-                becoming aware of any breach of security or unauthorized use of Your account.</p>
+							<li style="--clr: #ff0000">
+								<a href="https://youtu.be/iEbBfEntq0E"><i class="fa-brands fa-youtube"></i></a>
+							</li>
 
-              <h2>Order Cancellation</h2>
-              <p>
-                We reserve the right to refuse or cancel Your Order at any time for certain reasons including but not
-                limited to:
-              <ul>
-                <li>Packages availability</li>
-                <li>Errors in the description or prices for Packages</li>
-                <li>Errors in Your Order</li>
-              </ul>
-              </p>
-              <h2>Your Order Cancellation Rights</h2>
-              <p>Any Package you purchase can only be returned or refunded in accordance with these Terms and
-                Conditions.</p>
-              <h2>Payments</h2>
-              <p>Payment can be made through online payment mode called Razorpay.</p>
-              <h2>Links to Other Websites</h2>
-              <p>Our Service may contain links to third-party web sites or services that are not owned or controlled by
-                the Company.
+							<li style="--clr: #c32aa3">
+								<a href="https://www.instagram.com/_wanderer_team/"><i class="fa-brands fa-instagram"></i></a>
+							</li>
+							<li style="--clr: #1da1f2">
+								<a href="https://twitter.com/wandererteam22"><i class="fa-brands fa-twitter"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+					<div class="container">
+						<div class="row justify-content-between">
+							<div class="col-lg-120">
+								<div>
+									<p>
+										&copy; 2020-<span id="copyright"></span> Wanderer Pvt. Ltd. &nbsp&nbsp
+										<a class="text-primary" data-toggle="modal" data-target="#privacyModal">Privacy</a> ·
+										<a class="text-primary" data-toggle="modal" data-target="#termsModal">Terms</a>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-                The Company has no control over, and assumes no responsibility for, the content, privacy policies, or
-                practices of any third party web sites or services. You further acknowledge and agree that the Company
-                shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to
-                be caused by or in connection with the use of or reliance on any such content, goods or services
-                available on or through any such web sites or services.
+				<!-- footer script -->
+				<script>
+					document.getElementById("copyright").appendChild(document.createTextNode(new Date().getFullYear()));
+				</script>
 
-                We strongly advise You to read the terms and conditions and privacy policies of any third-party web
-                sites or services that You visit.
-              </p>
-              <h2>Termination</h2>
-              <p>We may terminate or suspend Your Account immediately, without prior notice or liability, for any reason
-                whatsoever, including without limitation if You breach these Terms and Conditions.
-
-                Upon termination, Your right to use the Service will cease immediately. If You wish to terminate Your
-                Account, You may simply discontinue using the Service.
-              </p>
-              <h2>Changes to These Terms and Conditions</h2>
-              <p>We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a
-                revision is material We will make reasonable efforts to provide at least 30 days' notice prior to any
-                new terms taking effect. What constitutes a material change will be determined at Our sole discretion.
-              </p>
-              <h2>Contact Us</h2>
-              <p>If you have any questions about this Privacy Policy, You can contact us:</p>
-              <ul>
-                <li>By visiting this page on our website: <a
-                    href="https://abhigyan-c.github.io/wanderer/OtherHTML/contactus.html"
-                    rel="external nofollow noopener"
-                    target="_blank">https://abhigyan-c.github.io/wanderer/OtherHTML/contactus.html</a></li>
-                <li>By sending us an email to <a href="mailto:shayan.sengupta2003@gmail.com">Gaz</a></li>
-              </ul>
-
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="servicesModal" tabindex="-1" role="dialog" aria-labelledby="servicesModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="servicesModalLabel">Our Services</h5>
-            </div>
-            <hr color="black" width="90%">
-            <div class="modal-body">
-              This website is of great help to people who are interested in traveling to remote places. It helps
-              tourists to book hotels in new places where tourism is not so developed and provides an overview about the
-              surroundings of that spot. The website helps tourists book their hotels, sort out their overall tour and
-              also provides for the lounge(food and drinks services) for the customers.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="teamModal" tabindex="-1" role="dialog" aria-labelledby="teamModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered scrollable" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="teamModalLabel">TEAM MEMBERS</h5>
-            </div>
-            <hr color="black" width="90%">
-            <div class="modal-body">
-              <h2>We have a proper team with members of various experience in different fields...</h2>
-              <h3>FRONT-END</h3>
-              <P>
-              <ul>
-                <li>CSS expertise : <br><a href="https://github.com/zack-here"> https://github.com/zack-here</a> </li>
-                <li>Github expertise & frontend problem solver : <br> <a
-                    href="https://github.com/Ritavas1">https://github.com/Ritavas1</a></li>
-                <li>Content Creator : <br><a href=" https://github.com/Shankhosuvro-G">
-                    https://github.com/Shankhosuvro-G</a></li>
-                <li>Frontend developer and animator : <br><a
-                    href="https://github.com/amyra98">https://github.com/amyra98 </a></li>
-              </ul>
-              </P>
-              <h3>BACK-END</h3>
-              <P>
-              <ul>
-                <li>PHP expertise & team-lead : <br><a href="https://github.com/satatya">https://github.com/satatya</a>
-                </li>
-                <li>Github expertise & backend problem solver : <br><a
-                    href="https://github.com/abhigyan-c/">https://github.com/abhigyan-c/ </a></li>
-              </ul>
-              </P>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal fade" id="partnersModal" tabindex="-1" role="dialog" aria-labelledby="partnersModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="partnersModalLabel">Collaboration with...</h5>
-            </div>
-            <hr color="black" width="90%">
-            <div class="modal-body">
-              Team Wanderers tries to collaborate with various resorts and hotels to provide customers an amazing
-              vacation at the remote places of India. For example, Dandamani Luxury Resort and Takdah Heritage British
-              Bungalow and many more.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="container">
-      <div class="row footer-top">
-        <!-- <div class="col-xl-5  col-sm-6 col-sm-6" style="border: 1px solid red;"> -->
-        <div class="col-xs-6 col-md-4">
-          <div class="single-footer-widget">
-            <h5 style="font-weight: bold;">About Wanderers</h5>
-            <p>
-              WE are Wanderers. We help people who are interested in traveling to remote places. We help tourists to
-              book hotels in new and unique places where tourism is not so developed, and also ensure that they are
-              provided with most possible services which they expect to receive in a modern day resort.
-            </p>
-          </div>
-        </div>
-        <!-- <div class="col-lg-3 col-md-7 col-sm-6" style="border: 1px solid red;"> -->
-        <div class="col-xs-6 col-md-4" style="text-align: center;">
-          <div class="single-footer-widget">
-            <h4>Navigation Links</h4>
-            <div class="row">
-              <ul class="col footer-nav">
-                <a href="../HTML/index.html" target="_blank">Home</a><br>
-                <a class="text-primary" data-toggle="modal" data-target="#servicesModal">Services</a><br>
-                <a href="../OtherHTML/about.html" target="_blank">Project</a><br>
-                <a class="text-primary" data-toggle="modal" data-target="#teamModal">Team Members</a><br>
-                <a class="text-primary" data-toggle="modal" data-target="#partnersModal">Our Partners</a><br>
-                <a href="../OtherHTML/contactus.html" target="_blank">Contact</a><br><br>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-4" style="text-align: center;">
-
-          <h3 class="head1">Follow Us On :</h3><br>
-          <ul id="footer1">
-            <li style="--clr:#5865f2;">
-              <a href="https://discord.gg/r92FvjRQCU"><i class="fa-brands fa-discord"></i></a>
-            </li>
-            <li style="--clr:#1877f2;">
-              <a href="https://t.me/wanderer_teams"><i class="fa-brands fa-telegram"></i></a>
-            </li>
-
-            <li style="--clr:#ff0000;">
-              <a href="https://youtu.be/iEbBfEntq0E"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-
-            <li style="--clr:#c32aa3;">
-              <a href="https://www.instagram.com/_wanderer_team/"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li style="--clr:#1da1f2;">
-              <a href="https://twitter.com/wandererteam22"><i class="fa-brands fa-twitter"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-lg-120">
-              <div>
-                <p>&copy; 2020-<span id="copyright"></span> Wanderer Pvt. Ltd. &nbsp&nbsp
-                  <a class="text-primary" data-toggle="modal"
-                    data-target="#privacyModal">Privacy</a> · <a class="text-primary" data-toggle="modal"
-                    data-target="#termsModal">Terms</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-  </footer>
-  <!-- footer script -->
-  <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
-
-  <script src="../js/totop.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-</body>
-
+				<script src="../js/totop.js"></script>
+				<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+				<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+				<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+			</div>
+		</footer>
+	</body>
 </html>
