@@ -6,8 +6,19 @@ body {
 	background-size: cover;
 }
 .card {
-	width: 400px;
-	border: none;
+    width: 400px;
+    background: none;
+    
+}
+
+.card::before{
+    content: "";
+    background-color: #fff;
+    opacity: 0.7;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
 }
 
 .btr {
@@ -19,20 +30,22 @@ body {
 }
 
 .btn-dark {
-	color: #fff;
-	background-color: #0d6efd;
-	border-color: #0d6efd;
+    color: #fff;
+    display: block;
+    /* width: 100%; */
+    background-color: #0d6efd;
+    border-color: #0d6efd
 }
 
 .btn-dark:hover {
-	color: #fff;
-	background-color: #0d6efd;
-	border-color: #0d6efd;
+    color: #fff;
+    background-color: #085bd6;
+    border-color: #085bd6;
 }
 
 .nav-pills {
-	display: table !important;
-	width: 100%;
+    display: table !important;
+    width: 100%;
 }
 
 .nav-pills .nav-link {
@@ -41,8 +54,8 @@ body {
 }
 
 .nav-item {
-	display: table-cell;
-	background: #0d6efd2e;
+    display: table-cell;
+    background: #0d6efd2e;
 }
 
 .form {
@@ -74,7 +87,8 @@ body {
 	border-radius: 5px;
 	transition: 0.5s;
 }
-.back-btn:hover {
-	background-color: #fff;
-	color: blue;
+.back-btn:hover{
+    background-color: #fff;
+    color: blue;
+
 }
