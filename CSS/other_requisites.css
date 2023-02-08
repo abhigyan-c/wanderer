@@ -44,17 +44,19 @@
 	opacity: 100%;
 }
 
-#button1 {
-	background-color: orange;
-	color: #5865f2;
-	font-weight: 500;
-}
+  #button1{
+      background-color: orange;
+      color: #5865f2;
+      font-weight: 600;
+      border: none;
+  }
 
-#button1:hover {
-	background-color: #5865f2;
-	color: orange;
-	font-weight: 800;
-}
+  #button1:hover {
+    background-color: #5865f2; 
+    color: orange;
+    font-weight: 800;
+    border: none;
+  }
 
 .sec1 {
 	animation: fadeInAnimation ease 3s;
@@ -147,10 +149,11 @@ div.desc {
 }
 
 .vidtext {
-	color: lightcyan;
-	font-size: 7vw;
-	align-self: center;
-	pointer-events: none;
+  color: white;
+  font-size: 7vw;
+  align-self: center;
+  pointer-events: none;
+  text-shadow: 3px 3px 10px rgb(0, 0, 0);
 }
 
 #logostyle {
@@ -164,15 +167,15 @@ div.desc {
 
 /* Track */
 ::-webkit-scrollbar-track {
-	background: lightcyan;
-	box-shadow: inset 0 0 5px grey;
-	border-radius: 10px;
+  /* background: lightcyan; */
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: darkcyan;
-	border-radius: 10px;
+  background: grey;
+  border-radius: 10px;
 }
 
 /* Handle on hover */
