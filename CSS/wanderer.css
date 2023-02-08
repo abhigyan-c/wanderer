@@ -19,3 +19,11 @@ div.internaltextcolor2 {
 div.contentfont {
 	font-family: Cambria;
 }
+.footer-nav a{
+	text-decoration: none;
+	font-weight: bold;
+	padding: 20px;
+}
+.footer-nav a:hover{
+	color: rgb(221, 15, 56);
+}
