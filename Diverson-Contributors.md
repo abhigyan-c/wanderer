@@ -4,7 +4,7 @@ Here are a list of all those who helped in enhancing this project, giving it a n
 <ol>
   <li>Abhigyan Chakraborty -- @abhigyan-c</li>
   <li>Satatya De -- @satatya</li>
-  <li> -- @Tapo41</li>
+  <li>Tapojita Kar -- @Tapo41</li>
   <li>Laaveshwaran Parthiban -- @aviiciii</li>
   <li>Bidisa Chowdhury -- @BidisaChowdhury</li>
   <li>Niladri Adhikary -- @niladrix719</li>
