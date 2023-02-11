@@ -43,8 +43,6 @@ Mainly required contributions:
 <hr>
 <br>
 
-### List of Contributors:<br>
-
 
 ### Site Link:<br>
 
