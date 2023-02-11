@@ -239,20 +239,23 @@ div.desc {
 }
 
 .banner-container .banner .content p {
-	color: #eee;
+	color: rgb(240, 238, 238);
 	font-size: 20px;
+  
 	padding: 10px 0;
 }
 
 .banner-container .banner .content .btn {
 	display: block;
-	height: 40px;
-	width: 150px;
-	line-height: 40px;
+	height: 45px;
+	width: 140px;
+	line-height: 32px;
 	background: #fff;
 	color: #d63031;
 	margin: 5px auto;
-	text-decoration: none;
+	text-decoration:none;
+  
+  
 }
 
 #a3 {
