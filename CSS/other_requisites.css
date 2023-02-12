@@ -37,6 +37,7 @@
 #header {
 	width: 100%;
 	background: linear-gradient(#000080 0%, #5865f2 100%);
+	padding: 11px 20px;
 }
 
 #toggle1 {
@@ -158,6 +159,9 @@ div.desc {
 
 #logostyle {
 	border-radius: 25% 15% 20% 15%;
+	width: 50px;
+	height: auto;
+	margin-right: 30px;
 }
 
 /* width */
