@@ -71,10 +71,10 @@
 	animation-fill-mode: forwards;
 }
 .head1 {
-	font-family: "Roboto", sans-serif;
-	color: rebeccapurple;
-	font-size: 20px;
-	font-weight: 200;
+font-family: "Roboto", sans-serif;
+color: black;
+font-size: 22px;
+font-weight: 400;
 }
 @keyframes fadeInAnimation {
 	0% {
