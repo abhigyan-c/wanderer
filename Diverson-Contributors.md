@@ -10,4 +10,5 @@ Here are a list of all those who helped in enhancing this project, giving it a n
   <li>Niladri Adhikary -- @niladrix719</li>
   <li>Zablon oigo -- @ZablonOigo</li>
   <li>Hitanshi Singh -- @Hitanshi-Singh</li>
+  <li>Sakib Ahmed -- @devvsakib</li>
 </ol>
